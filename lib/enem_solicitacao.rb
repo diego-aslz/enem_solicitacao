@@ -1,0 +1,3 @@
+module EnemSolicitacao
+  VERSION = '0.0.1'
+end
