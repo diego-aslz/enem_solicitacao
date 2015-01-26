@@ -1,0 +1,1747 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://sistemasenem.inep.gov.br/EnemSolicitacao/login.seam
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.1) Gecko/20100122 firefox/3.6.1
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Host:
+      - sistemasenem.inep.gov.br
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - 300
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      X-Powered-By:
+      - JSF/1.2
+      - 'Servlet 2.4; JBoss-4.3.0.GA_CP06 (build: SVNTag=JBPAPP_4_3_0_GA_CP06 date=200907141446)/JBossWeb-2.0'
+      Set-Cookie:
+      - BIGipServerEnem_Legado=3456376236.20480.0000; path=/
+      - JSESSIONID=A92CADE9A904529FD02DA795AAA81E1B; Path=/
+      Content-Type:
+      - text/html;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Mon, 26 Jan 2015 17:37:23 GMT
+    body:
+      encoding: UTF-8
+      string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"
+        >\n<html xml:lang=\"pt-br\" lang=\"pt-br\" xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n\t<meta
+        http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n\t<meta
+        http-equiv=\"Pragma\" content=\"no-cache\" />\n\t<meta name=\"generator\"
+        content=\"mec.gov.br\" />\n\t<meta name=\"description\" content=\"Ministrio
+        da Educao - Brasil\" />\n\t<meta name=\"keywords\" content=\"Ministrio da
+        Educao, ProUni, MEC, Site MEC, ensino, estudo, brasil, governo, federal, acessibilidade,
+        faculdades, ensino superior, ensino mdio, ensino fundamental, escola\" />\n\t<meta
+        name=\"resource-type\" content=\"document\" />\n\t<meta http-equiv=\"Cache-Control\"
+        content=\"no-cache\" />\n\t<meta http-equiv=\"Pragma\" content=\"no-cache\"
+        />\n\t<meta name=\"classification\" content=\"Internet\" />\n\t<meta name=\"robots\"
+        content=\"ALL\" />\n\t<meta name=\"rating\" content=\"General\" />\n\t<meta
+        name=\"copyright\" content=\"MEC\" />\n\t<meta name=\"language\" content=\"pt-br\"
+        />\n\t<meta name=\"doc-class\" content=\"Completed\" />\n\t<meta name=\"doc-rights\"
+        content=\"Public\" />\n\t<meta name=\"DC.title\" content=\"MEC\" />\n\t<meta
+        name=\"geo.region\" content=\"BR-DF\" />\n\t<meta name=\"geo.placename\" content=\"Distrito
+        Federal\" />\n\t<meta name=\"distribution\" content=\"Global\" />\n\t<meta
+        name=\"revisit-after\" content=\"1\" />\n\t<meta http-equiv=\"Pragma\" content=\"no-cache\"
+        />\n\t<meta http-equiv=\"Cache-Control\" content=\"no-cache\" />\n\t<meta
+        http-equiv=\"Cache-Control\" content=\"must-revalidate\" />\n\t<meta http-equiv=\"Expires\"
+        content=\"Mon, 1 Jan 2006 05:00:00\" />\n\t<title>Minist&eacute;rio da Educa&ccedil;&atilde;o
+        - MEC</title>\n\t<link class=\"component\" href=\"/EnemSolicitacao/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/basic_classes.xcss/DATB/eAGbUnaFO3T5DGkAEaUDmQ__;jsessionid=A92CADE9A904529FD02DA795AAA81E1B\"
+        rel=\"stylesheet\" type=\"text/css\" /><link class=\"component\" href=\"/EnemSolicitacao/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAGbUnaFO3T5DGkAEaUDmQ__;jsessionid=A92CADE9A904529FD02DA795AAA81E1B\"
+        media=\"rich-extended-skinning\" rel=\"stylesheet\" type=\"text/css\" /><link
+        class=\"component\" href=\"/EnemSolicitacao/a4j/s/3_3_3.Finalcss/panel.xcss/DATB/eAGbUnaFO3T5DGkAEaUDmQ__;jsessionid=A92CADE9A904529FD02DA795AAA81E1B\"
+        rel=\"stylesheet\" type=\"text/css\" /><script type=\"text/javascript\">window.RICH_FACES_EXTENDED_SKINNING_ON=true;</script><script
+        src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/skinning.js\"
+        type=\"text/javascript\"></script><link rel=\"shortcut icon\" href=\"favicon.ico\"
+        type=\"image/x-icon\" />\n\t<link rel=\"stylesheet\" media=\"screen\" href=\"http://public.inep.gov.br/MECdefault/css/screen.css\"
+        />\n\t<link rel=\"stylesheet\" media=\"print\" href=\"http://public.inep.gov.br/MECdefault/css/print.css\"
+        />\n\t\n    \n    <script>\n\t\t//<![CDATA[\n\t\t\tvar loadPrototype\t= (!(typeof
+        Prototype=='undefined')) ? ((!Prototype.Version)|| false) : false;\n\t\t\tif(loadPrototype){\n\t\t\t\t//document.write('<script
+        type=\"text/javascript\" src=\"http://public.inep.gov.br/MECdefault/js/lib/prototype/prototype.js\"><\\/script>');\n\t\t\t}\n\t\t\t\n\t\t\tvar
+        loadFormulario\t= (typeof Formulario=='undefined') || false;\n\t\t\tif(loadFormulario){\n\t\t\t\t//document.write('<script
+        type=\"text/javascript\" src=\"http://public.inep.gov.br/MECdefault/js/class/component/Formulario.js\"><\\/script>');\n\t\t\t}\n\t\t//]]>\n\t</script>\n\t<script
+        src=\"http://public.inep.gov.br/MECdefault/js/lib/scriptaculous/scriptaculous.js?load=effects\"></script>\n\t\n\t<script
+        src=\"http://public.inep.gov.br/MECdefault/js/class/InepMain.js\"></script>\n\t<style
+        type=\"text/css\">\n\t\t.AcessibilidadeBotoes {\n\t\t\twidth: 300px; \n\t\t\theight:
+        22px;\n\t\t\ttext-align: right;\n\t\t\tmargin-left: auto; \n\t\t\tpadding:
+        5px;\n\t\t}\n\n\t\t#FonteNormal {\n\t\t\tcolor: white;\n\t\t\ttext-decoration:
+        none;\n\t\t}\n\t\t\n\t\t#AumentarFonte {\n\t\t\tcolor: white;\n\t\t\ttext-decoration:
+        none;\n\t\t}\n\t\t\n\t\t#DiminuirFonte {\n\t\t\tcolor: white;\n\t\t\ttext-decoration:
+        none;\n\t\t}\n\t</style>\n\t\t<link href=\"/EnemSolicitacao/stylesheet/site.css\"
+        rel=\"stylesheet\" type=\"text/css\" />\n\t\t<link rel=\"stylesheet\" media=\"screen\"
+        href=\"http://public.inep.gov.br/MECdefault/css/noLeftMenu.css\" />\n\t\t<script
+        language=\"JavaScript\">\n\t    \tjavascript:window.history.forward(1);\t\n\t
+        \   </script>\n</head>\n\n<body>\n<div id=\"barra-brasil\">\n   <a href=\"http://brasil.gov.br\"
+        style=\"background:#7F7F7F; height: 20px; padding:4px 0 4px 10px; display:
+        block; font-family:sans,sans-serif; text-decoration:none; color:white; \">Portal
+        do Governo Brasileiro</a>\n</div>\n\n\n<div id=\"Wrapper\">\n\t\n\t<div id=\"Header\">\n\t\t<div
+        id=\"LogoRepublica\">\n\t\t<img src=\"http://public.inep.gov.br/MECdefault/files/images/logos/republica.jpg\"
+        class=\"OnlyPrint\" />\n\t\t</div>\n\t\t\n\t\t<div class=\"INEP\">\n\t\t\t<div
+        id=\"LinkINEP\" class=\"NoPrint\"></div>\n\t\t\t<h2 class=\"OnlyPrint\"><a
+        href=\"http://www.inep.gov.br/\">Instituto Nacional de Estudos e <br /> Pesquisas
+        Educacionais An&iacute;sio Teixeira</a></h2>\n\t\t\t<div class=\"AcessibilidadeBotoes\">\n
+        \             <a href=\"javascript:controlFontSize('0', 180, 60); void(0);\"
+        id=\"FonteNormal\">\n                <img width=\"15\" height=\"15\" alt=\"Fonte
+        normal\" src=\"http://public.inep.gov.br/MECdefault/files/images/a_normal.png\"
+        />\n              </a>\n              <a href=\"javascript:controlFontSize('+',
+        180, 60); void(0);\" id=\"AumentarFonte\">\n                <img width=\"15\"
+        height=\"15\" alt=\"Aumentar fonte\" src=\"http://public.inep.gov.br/MECdefault/files/images/a_mais.png\"
+        />\n              </a>\n              <a href=\"javascript:controlFontSize('-',
+        180, 60); void(0);\" id=\"DiminuirFonte\">\n                <img width=\"15\"
+        height=\"15\" alt=\"Diminuir fonte.\" src=\"http://public.inep.gov.br/MECdefault/files/images/a_menos.png\"
+        />\n              </a>\n            </div>\n\t\t</div>\n\t\t<div class=\"Topo\">\n\t\t\t<div
+        class=\"Ilustracao\"></div>\n\t\t\t\n\t\t</div>\n\t</div>\n\t\n\t<br class=\"Clear\"
+        />\n\t\n\t<div id=\"LeftMenu\" class=\"NoPrint\">\n\t</div>\n\t<div id=\"ContentHolder\">\n\t\t\n\t\n\t
+        \  \t<script type=\"text/javascript\">\n\t\t\tvar gaJsHost = ((\"https:\"
+        == document.location.protocol) ? \"https://ssl.\" : \"http://www.\");\n\t\t\tdocument.write(unescape(\"%3Cscript
+        src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\"));\n\t\t</script>\n\t\t<style>\n\t\t\tdl.FieldHolder
+        dt {\n\t\t\t\tbackground-color:#EEEEEE;\n\t\t\t\tborder-left:0 none;\n\t\t\t}\n\t\t</style>\n\t\t<script
+        language=\"javascript\" type=\"text/javascript\">\n\t\t\tsomenteNumeros =
+        function(e) {\n\t\t\t\tvar tecla = (window.event) ? event.keyCode : e.which;\n\t\t
+        \       if (tecla > 47 && tecla < 58) {\n\t\t\t\t\treturn true;\n\t\t\t\t}\n\t\t\t\tif
+        (tecla == 8 || tecla == 0) {\n\t\t\t\t\treturn true;\n\t\t\t\t}\n\t\t\t\treturn
+        false;\n\t\t\t}\n\t\t</script>\n<form id=\"formLogin\" name=\"formLogin\"
+        method=\"post\" action=\"/EnemSolicitacao/login.seam;jsessionid=A92CADE9A904529FD02DA795AAA81E1B\"
+        enctype=\"application/x-www-form-urlencoded\">\n<input type=\"hidden\" name=\"formLogin\"
+        value=\"formLogin\" />\n<div class=\"rich-panel \" id=\"j_id10\"><div class=\"rich-panel-header
+        \" id=\"j_id10_header\">Entrada</div><div class=\"rich-panel-body \" id=\"j_id10_body\">\n\t
+        \   \t\t\n\t\t\t\t\n\t\t\t\t<br />\n\t\t\t\t<br />\n\t\t\t\t\t\t\t\n\t\t\t
+        \   <td> Por favor, digite o n&uacute;mero de identifica&ccedil;&atilde;o
+        e a senha. </td>\n\t    \t\t<br />\n\t\t\t\t\n\t    \t\t<td> Caso seja o 1&ordm;
+        acesso, digite apenas o n&uacute;mero de identifica&ccedil;&atilde;o. </td>\n\t
+        \   \t\t  \t\t        \n\t            <div class=\"dialog\"><table>\n<tbody>\n<tr
+        class=\"prop\">\n<td class=\"name\"><label for=\"username\">\nN&ordm; de Identifica&ccedil;&atilde;o:</label></td>\n<td
+        class=\"value\"><input id=\"username\" type=\"text\" name=\"username\" onkeypress=\"return
+        somenteNumeros(event);\" /></td>\n</tr>\n<tr class=\"prop\">\n<td class=\"name\"><label
+        for=\"password\">\nSenha:</label></td>\n<td class=\"value\"><input id=\"password\"
+        type=\"password\" name=\"password\" autocomplete=\"off\" value=\"\" /></td>\n</tr>\n</tbody>\n</table>\n\n\t
+        \           </div><input type=\"image\" src=\"http://public.inep.gov.br/MECdefault/files/images/botoes/acao/vermelho/entrar.jpg\"
+        name=\"j_id19\" /></div></div>\n\n\t\t\t<table cellpadding=\"0\" cellspacing=\"0\"
+        width=\"100%\">\n\t\t\t\t<tr>\n\t\t\t\t\t<td align=\"left\">\n<script type=\"text/javascript\"
+        language=\"Javascript\">function dpf(f) {var adp = f.adp;if (adp != null)
+        {for (var i = 0;i < adp.length;i++) {f.removeChild(adp[i]);}}};function apf(f,
+        pvp) {var adp = new Array();f.adp = adp;var i = 0;for (k in pvp) {var p =
+        document.createElement(\"input\");p.type = \"hidden\";p.name = k;p.value =
+        pvp[k];f.appendChild(p);adp[i++] = p;}};function jsfcljs(f, pvp, t) {apf(f,
+        pvp);var ft = f.target;if (t) {f.target = t;}f.submit();f.target = ft;dpf(f);};</script>\n<a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('formLogin'),{'j_id21':'j_id21'},'');}return
+        false\">Esqueci minha senha</a>\n\t\t\t\t\t</td>\n\t\t\t\t</tr>\n\t\t\t\t\n\t\t\t</table><input
+        type=\"hidden\" name=\"javax.faces.ViewState\" id=\"javax.faces.ViewState\"
+        value=\"j_id1\" />\n</form>\n\t\n\t        <p align=\"right\">\n\t\t\t\t<i><font
+        color=\"2525112\"><label>\nVersao: v3.0.3.3 206</label></font></i>\n\t\t\t</p>\n\t</div>\n\t\n\t<br
+        class=\"Clear\" />\n\t\n\t<div id=\"Footer\" class=\"NoPrint\">Copyright MEC
+        - INEP - Instituto Nacional de Estudos e Pesquisas Educacionais An&iacute;sio
+        Teixeira</div>\n</div>\n<script src=\"http://public.inep.gov.br/barra_governo/barra-sistema.js\"
+        type=\"text/javascript\"></script>\n</body>\n</html>"
+    http_version:
+  recorded_at: Mon, 26 Jan 2015 17:37:08 GMT
+- request:
+    method: post
+    uri: http://sistemasenem.inep.gov.br/EnemSolicitacao/login.seam;jsessionid=A92CADE9A904529FD02DA795AAA81E1B
+    body:
+      encoding: UTF-8
+      string: formLogin=formLogin&username=<VALID_LOGIN>&password=<VALID_PASSWORD>&javax.faces.ViewState=j_id1&j_id19.x=1&j_id19.y=1
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.1) Gecko/20100122 firefox/3.6.1
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - BIGipServerEnem_Legado=3456376236.20480.0000; JSESSIONID=A92CADE9A904529FD02DA795AAA81E1B
+      Host:
+      - sistemasenem.inep.gov.br
+      Referer:
+      - &1 !ruby/object:URI::HTTP
+        scheme: http
+        user:
+        password:
+        host: sistemasenem.inep.gov.br
+        port: 80
+        path: "/EnemSolicitacao/login.seam"
+        query:
+        opaque:
+        registry:
+        fragment:
+        parser:
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Content-Length:
+      - '112'
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - 300
+  response:
+    status:
+      code: 302
+      message: Moved Temporarily
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      X-Powered-By:
+      - JSF/1.2
+      - 'Servlet 2.4; JBoss-4.3.0.GA_CP06 (build: SVNTag=JBPAPP_4_3_0_GA_CP06 date=200907141446)/JBossWeb-2.0'
+      Location:
+      - http://sistemasenem.inep.gov.br/EnemSolicitacao/home.seam?cid=4167
+      Content-Length:
+      - '0'
+      Date:
+      - Mon, 26 Jan 2015 17:37:25 GMT
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version:
+  recorded_at: Mon, 26 Jan 2015 17:37:09 GMT
+- request:
+    method: get
+    uri: http://sistemasenem.inep.gov.br/EnemSolicitacao/home.seam?cid=4167
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.1) Gecko/20100122 firefox/3.6.1
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - BIGipServerEnem_Legado=3456376236.20480.0000; JSESSIONID=A92CADE9A904529FD02DA795AAA81E1B
+      Host:
+      - sistemasenem.inep.gov.br
+      Referer:
+      - *1
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - 300
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      X-Powered-By:
+      - JSF/1.2
+      - 'Servlet 2.4; JBoss-4.3.0.GA_CP06 (build: SVNTag=JBPAPP_4_3_0_GA_CP06 date=200907141446)/JBossWeb-2.0'
+      Content-Type:
+      - text/html;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Mon, 26 Jan 2015 17:37:25 GMT
+    body:
+      encoding: UTF-8
+      string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"
+        >\n<html xml:lang=\"pt-br\" lang=\"pt-br\" xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n\t<meta
+        http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n\t<meta
+        http-equiv=\"Pragma\" content=\"no-cache\" />\n\t<meta name=\"generator\"
+        content=\"mec.gov.br\" />\n\t<meta name=\"description\" content=\"Ministrio
+        da Educao - Brasil\" />\n\t<meta name=\"keywords\" content=\"Ministrio da
+        Educao, ProUni, MEC, Site MEC, ensino, estudo, brasil, governo, federal, acessibilidade,
+        faculdades, ensino superior, ensino mdio, ensino fundamental, escola\" />\n\t<meta
+        name=\"resource-type\" content=\"document\" />\n\t<meta http-equiv=\"Cache-Control\"
+        content=\"no-cache\" />\n\t<meta http-equiv=\"Pragma\" content=\"no-cache\"
+        />\n\t<meta name=\"classification\" content=\"Internet\" />\n\t<meta name=\"robots\"
+        content=\"ALL\" />\n\t<meta name=\"rating\" content=\"General\" />\n\t<meta
+        name=\"copyright\" content=\"MEC\" />\n\t<meta name=\"language\" content=\"pt-br\"
+        />\n\t<meta name=\"doc-class\" content=\"Completed\" />\n\t<meta name=\"doc-rights\"
+        content=\"Public\" />\n\t<meta name=\"DC.title\" content=\"MEC\" />\n\t<meta
+        name=\"geo.region\" content=\"BR-DF\" />\n\t<meta name=\"geo.placename\" content=\"Distrito
+        Federal\" />\n\t<meta name=\"distribution\" content=\"Global\" />\n\t<meta
+        name=\"revisit-after\" content=\"1\" />\n\t<meta http-equiv=\"Pragma\" content=\"no-cache\"
+        />\n\t<meta http-equiv=\"Cache-Control\" content=\"no-cache\" />\n\t<meta
+        http-equiv=\"Cache-Control\" content=\"must-revalidate\" />\n\t<meta http-equiv=\"Expires\"
+        content=\"Mon, 1 Jan 2006 05:00:00\" />\n\t<title>Minist&eacute;rio da Educa&ccedil;&atilde;o
+        - MEC</title>\n\t<link class=\"component\" href=\"/EnemSolicitacao/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/basic_classes.xcss/DATB/eAGbUnaFO3T5DGkAEaUDmQ__\"
+        rel=\"stylesheet\" type=\"text/css\" /><link class=\"component\" href=\"/EnemSolicitacao/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAGbUnaFO3T5DGkAEaUDmQ__\"
+        media=\"rich-extended-skinning\" rel=\"stylesheet\" type=\"text/css\" /><link
+        class=\"component\" href=\"/EnemSolicitacao/a4j/s/3_3_3.Finalcss/panel.xcss/DATB/eAGbUnaFO3T5DGkAEaUDmQ__\"
+        rel=\"stylesheet\" type=\"text/css\" /><script src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalorg.ajax4jsf.javascript.PrototypeScript\"
+        type=\"text/javascript\"></script><script src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalscripts/scriptaculous/effects.js\"
+        type=\"text/javascript\"></script><script src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/script/processEffect.js\"
+        type=\"text/javascript\"></script><script type=\"text/javascript\">window.RICH_FACES_EXTENDED_SKINNING_ON=true;</script><script
+        src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/skinning.js\"
+        type=\"text/javascript\"></script><link class=\"user\" href=\"/EnemSolicitacao/a4j/g/3_3_3.Finalform/form.css\"
+        rel=\"stylesheet\" type=\"text/css\" /><script src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalform/form.js\"
+        type=\"text/javascript\"></script><link rel=\"shortcut icon\" href=\"favicon.ico\"
+        type=\"image/x-icon\" />\n\t<link rel=\"stylesheet\" media=\"screen\" href=\"http://public.inep.gov.br/MECdefault/css/screen.css\"
+        />\n\t<link rel=\"stylesheet\" media=\"print\" href=\"http://public.inep.gov.br/MECdefault/css/print.css\"
+        />\n\t\n    \n    <script>\n\t\t//<![CDATA[\n\t\t\tvar loadPrototype\t= (!(typeof
+        Prototype=='undefined')) ? ((!Prototype.Version)|| false) : false;\n\t\t\tif(loadPrototype){\n\t\t\t\t//document.write('<script
+        type=\"text/javascript\" src=\"http://public.inep.gov.br/MECdefault/js/lib/prototype/prototype.js\"><\\/script>');\n\t\t\t}\n\t\t\t\n\t\t\tvar
+        loadFormulario\t= (typeof Formulario=='undefined') || false;\n\t\t\tif(loadFormulario){\n\t\t\t\t//document.write('<script
+        type=\"text/javascript\" src=\"http://public.inep.gov.br/MECdefault/js/class/component/Formulario.js\"><\\/script>');\n\t\t\t}\n\t\t//]]>\n\t</script>\n\t<script
+        src=\"http://public.inep.gov.br/MECdefault/js/lib/scriptaculous/scriptaculous.js?load=effects\"></script>\n\t\n\t<script
+        src=\"http://public.inep.gov.br/MECdefault/js/class/InepMain.js\"></script>\n\t<style
+        type=\"text/css\">\n\t\t.AcessibilidadeBotoes {\n\t\t\twidth: 300px; \n\t\t\theight:
+        22px;\n\t\t\ttext-align: right;\n\t\t\tmargin-left: auto; \n\t\t\tpadding:
+        5px;\n\t\t}\n\n\t\t#FonteNormal {\n\t\t\tcolor: white;\n\t\t\ttext-decoration:
+        none;\n\t\t}\n\t\t\n\t\t#AumentarFonte {\n\t\t\tcolor: white;\n\t\t\ttext-decoration:
+        none;\n\t\t}\n\t\t\n\t\t#DiminuirFonte {\n\t\t\tcolor: white;\n\t\t\ttext-decoration:
+        none;\n\t\t}\n\t</style>\n\t\t<link href=\"/EnemSolicitacao/stylesheet/site.css\"
+        rel=\"stylesheet\" type=\"text/css\" />\n\t\t<script language=\"JavaScript\">\n\t
+        \   \tjavascript:window.history.forward(1);\t\n\t    </script>\n\t    <script
+        language=\"javascript\" type=\"text/javascript\">\n\t\tsomenteNumeros = function(e)
+        {\n\t\t\tvar tecla = (window.event) ? event.keyCode : e.which;\n\t       \tif
+        (tecla > 47 && tecla < 58) {\n\t\t\t\treturn true;\n\t\t\t}\n\t\t\tif (tecla
+        == 8 || tecla == 0) {\n\t\t\t\treturn true;\n\t\t\t}\n\t\t\treturn false;\n\t\t}\n\t</script>\n</head>\n\n<body>\n<div
+        id=\"barra-brasil\">\n   <a href=\"http://brasil.gov.br\" style=\"background:#7F7F7F;
+        height: 20px; padding:4px 0 4px 10px; display: block; font-family:sans,sans-serif;
+        text-decoration:none; color:white; \">Portal do Governo Brasileiro</a>\n</div>\n\n\n<div
+        id=\"Wrapper\">\n\t\n\t<div id=\"Header\">\n\t\t<div id=\"LogoRepublica\">\n\t\t<img
+        src=\"http://public.inep.gov.br/MECdefault/files/images/logos/republica.jpg\"
+        class=\"OnlyPrint\" />\n\t\t</div>\n\t\t\n\t\t<div class=\"INEP\">\n\t\t\t<div
+        id=\"LinkINEP\" class=\"NoPrint\"></div>\n\t\t\t<h2 class=\"OnlyPrint\"><a
+        href=\"http://www.inep.gov.br/\">Instituto Nacional de Estudos e <br /> Pesquisas
+        Educacionais An&iacute;sio Teixeira</a></h2>\n\t\t\t<div class=\"AcessibilidadeBotoes\">\n
+        \             <a href=\"javascript:controlFontSize('0', 180, 60); void(0);\"
+        id=\"FonteNormal\">\n                <img width=\"15\" height=\"15\" alt=\"Fonte
+        normal\" src=\"http://public.inep.gov.br/MECdefault/files/images/a_normal.png\"
+        />\n              </a>\n              <a href=\"javascript:controlFontSize('+',
+        180, 60); void(0);\" id=\"AumentarFonte\">\n                <img width=\"15\"
+        height=\"15\" alt=\"Aumentar fonte\" src=\"http://public.inep.gov.br/MECdefault/files/images/a_mais.png\"
+        />\n              </a>\n              <a href=\"javascript:controlFontSize('-',
+        180, 60); void(0);\" id=\"DiminuirFonte\">\n                <img width=\"15\"
+        height=\"15\" alt=\"Diminuir fonte.\" src=\"http://public.inep.gov.br/MECdefault/files/images/a_menos.png\"
+        />\n              </a>\n            </div>\n\t\t</div>\n\t\t<div class=\"Topo\">\n\t\t\t<div
+        class=\"Ilustracao\"></div>\n\t\t\t\n\t\t</div>\n\t</div>\n\t\n\t<br class=\"Clear\"
+        />\n\t\n\t<div id=\"LeftMenu\" class=\"NoPrint\">\n<form id=\"menuForm\" name=\"menuForm\"
+        method=\"post\" action=\"/EnemSolicitacao/home.seam\" enctype=\"application/x-www-form-urlencoded\">\n<input
+        type=\"hidden\" name=\"menuForm\" value=\"menuForm\" />\n\n\t\t<ul>\n\t\t\t<li></li>\n\t\t</ul>\n\t\t<ul>\n\t\t\t<li>\n<script
+        type=\"text/javascript\" language=\"Javascript\">function dpf(f) {var adp
+        = f.adp;if (adp != null) {for (var i = 0;i < adp.length;i++) {f.removeChild(adp[i]);}}};function
+        apf(f, pvp) {var adp = new Array();f.adp = adp;var i = 0;for (k in pvp) {var
+        p = document.createElement(\"input\");p.type = \"hidden\";p.name = k;p.value
+        = pvp[k];f.appendChild(p);adp[i++] = p;}};function jsfcljs(f, pvp, t) {apf(f,
+        pvp);var ft = f.target;if (t) {f.target = t;}f.submit();f.target = ft;dpf(f);};</script>\n<a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id11':'j_id11'},'');}return
+        false\">Administrar respons&aacute;vel</a></li>\n\t\t\t\t\t<li><label>\nSolicitar
+        resultado 2014</label>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"#\"
+        onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id40':'j_id40'},'');}return
+        false\">Por arquivo (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id42':'j_id42'},'');}return
+        false\">Pela internet (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id44':'j_id44'},'');}return
+        false\">Por arquivo (Cpf)</a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\" onclick=\"if(typeof
+        jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id46':'j_id46'},'');}return
+        false\">Pela internet (Cpf)</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li><label>\nSolicitar
+        resultado 2013</label>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"#\"
+        onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id50':'j_id50'},'');}return
+        false\">Por arquivo (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id52':'j_id52'},'');}return
+        false\">Pela internet (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id54':'j_id54'},'');}return
+        false\">Por arquivo (Cpf)</a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\" onclick=\"if(typeof
+        jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id56':'j_id56'},'');}return
+        false\">Pela internet (Cpf)</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li><label>\nSolicitar
+        resultado 2012</label>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"#\"
+        onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id60':'j_id60'},'');}return
+        false\">Por arquivo (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id62':'j_id62'},'');}return
+        false\">Pela internet (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id64':'j_id64'},'');}return
+        false\">Por arquivo (Cpf)</a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\" onclick=\"if(typeof
+        jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id66':'j_id66'},'');}return
+        false\">Pela internet (Cpf)</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li><label>\nSolicitar
+        resultado 2011</label>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"#\"
+        onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id70':'j_id70'},'');}return
+        false\">Por arquivo (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id72':'j_id72'},'');}return
+        false\">Pela internet (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id74':'j_id74'},'');}return
+        false\">Por arquivo (Cpf)</a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\" onclick=\"if(typeof
+        jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id76':'j_id76'},'');}return
+        false\">Pela internet (Cpf)</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li><label>\nSolicitar
+        resultado 2010</label>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"#\"
+        onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id80':'j_id80'},'');}return
+        false\">Por arquivo (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id82':'j_id82'},'');}return
+        false\">Pela internet (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id84':'j_id84'},'');}return
+        false\">Por arquivo (Cpf)</a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\" onclick=\"if(typeof
+        jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id86':'j_id86'},'');}return
+        false\">Pela internet (Cpf)</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li><label>\nSolicitar
+        resultado 2009</label>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"#\"
+        onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id90':'j_id90'},'');}return
+        false\">Por arquivo (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id92':'j_id92'},'');}return
+        false\">Pela internet (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id94':'j_id94'},'');}return
+        false\">Por arquivo (Cpf)</a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\" onclick=\"if(typeof
+        jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id96':'j_id96'},'');}return
+        false\">Pela internet (Cpf)</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li><label>\nSolicitar
+        resultado anos anteriores</label>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id100':'j_id100'},'');}return
+        false\">Por arquivo (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id102':'j_id102'},'');}return
+        false\">Pela internet (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<hr
+        />\n\t\t\t\t\t\t\t<li><a href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id104':'j_id104'},'');}return
+        false\">Acompanhar solicita&ccedil;&atilde;o</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</li>\n\t\t</ul>\n\t\t<ul>\n\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id108':'j_id108'},'');}return
+        false\">Sair</a></li>\n\t\t</ul><input type=\"hidden\" name=\"javax.faces.ViewState\"
+        id=\"javax.faces.ViewState\" value=\"j_id2\" />\n</form>\n\t</div>\n\t<div
+        id=\"ContentHolder\">\n\n     <h4>\n       P&aacute;gina inicial\n       <hr
+        />\n     </h4>\n<form id=\"formForm\" name=\"formForm\" method=\"post\" action=\"/EnemSolicitacao/home.seam\"
+        enctype=\"\">\n<input type=\"hidden\" name=\"formForm\" value=\"formForm\"
+        />\n\n\t\t<script>\n\t\t\tvar formForm = new Formulario();\n\t\t\tEvent.observe($('formForm'),'submit',function(){\n\t\t\t\tvar
+        form\t= formForm;\n\t\t\t\tsetTimeout(function(){\n\t\t\t\t\tform.error\t=
+        new Array();\n\t\t\t\t},10);\n\t\t\t});\n\t\t</script><div id=\"formFormMessages\"
+        class=\"Error\"><div class=\"rich-panel message\" id=\"j_id116\" onclick=\"Richfaces.processEffect(Object.extend({targetId:this},{type:'DropOut',duration:0.8}));\"
+        style=\"padding:0\"><div class=\"rich-panel-body \" id=\"j_id116_body\"><ul><li
+        style=\"padding-left:70px\" class=\"infomsg\">\tSeja bem vindo </li></ul></div></div></div>\n\n\t\t<br
+        /><div id=\"j_id121\">\n\t\t\t<p>Compete &agrave;s Secretarias de Educa&ccedil;&atilde;o
+        dos Estados e aos Institutos Federais de Educa&ccedil;&atilde;o, Ci&ecirc;ncia
+        e Tecnologia emitir os certificados de conclus&atilde;o e/ou declara&ccedil;&atilde;o
+        parcial de profici&ecirc;ncia, quando solicitado pelo participante interessado.
+        Estas institui&ccedil;&otilde;es poder&atilde;o ainda definir procedimentos
+        complementares para fins de certifica&ccedil;&atilde;o de conclus&atilde;o
+        do ensino m&eacute;dio ou declara&ccedil;&atilde;o parcial de profici&ecirc;ncia
+        com base nas notas do ENEM.</p>\n\t\t\t<p>A certifica&ccedil;&atilde;o por
+        meio do Enem at&eacute; a edi&ccedil;&atilde;o de 2013 &eacute; normatizada
+        pela <a target=\"_blanck\" href=\"http://download.inep.gov.br/educacao_basica/enem/legislacao/2012/portaria-inep-144-certificacao.pdf\">Portaria
+        INEP n&ordm; 144, de 24 de maio de 2012</a>. A partir da edi&ccedil;&atilde;o
+        2014 do exame, esse processo passou a ser regulamentado pela <a target=\"_blanck\"
+        href=\"http://download.inep.gov.br/educacao_basica/enem/legislacao/2014/portaria_n179_dispoe_sobre_processo_certificacao_competencias.pdf\">Portaria
+        INEP n&ordm; 179, de 28 de abril de 2014</a> e sua <a target=\"_blanck\" href=\"http://download.inep.gov.br/educacao_basica/enem/legislacao/2014/portaria_n179_28abril2014_retificacao.pdf\">retifica&ccedil;&atilde;o</a>.</p>
+        \n\t\t\t<p>Para acesso ao Guia de Certifica&ccedil;&atilde;o. Clique <a target=\"_blanck\"
+        href=\"http://download.inep.gov.br/educacao_basica/enem/certificacao/2014/guia_certificacao_enem_2014.pdf\">aqui</a></p>\n\t\t\t<p>Quaisquer
+        d&uacute;vidas, entre em contato com o e-mail: enem.solicitacao@inep.gov.br</p></div><input
+        type=\"hidden\" name=\"javax.faces.ViewState\" id=\"javax.faces.ViewState\"
+        value=\"j_id2\" />\n</form>\n\t</div>\n\t\n\t<br class=\"Clear\" />\n\t\n\t<div
+        id=\"Footer\" class=\"NoPrint\">Copyright MEC - INEP - Instituto Nacional
+        de Estudos e Pesquisas Educacionais An&iacute;sio Teixeira</div>\n</div>\n<script
+        src=\"http://public.inep.gov.br/barra_governo/barra-sistema.js\" type=\"text/javascript\"></script>\n</body>\n</html>"
+    http_version:
+  recorded_at: Mon, 26 Jan 2015 17:37:11 GMT
+- request:
+    method: get
+    uri: http://sistemasenem.inep.gov.br/EnemSolicitacao/solicitacao/resultado2014/numeroInscricao/solicitacaoPelaInternet.seam
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.1) Gecko/20100122 firefox/3.6.1
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - BIGipServerEnem_Legado=3456376236.20480.0000; JSESSIONID=A92CADE9A904529FD02DA795AAA81E1B
+      Host:
+      - sistemasenem.inep.gov.br
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - 300
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      X-Powered-By:
+      - JSF/1.2
+      - 'Servlet 2.4; JBoss-4.3.0.GA_CP06 (build: SVNTag=JBPAPP_4_3_0_GA_CP06 date=200907141446)/JBossWeb-2.0'
+      Content-Type:
+      - text/html;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Mon, 26 Jan 2015 17:37:26 GMT
+    body:
+      encoding: UTF-8
+      string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"
+        >\n<html xml:lang=\"pt-br\" lang=\"pt-br\" xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n\t<meta
+        http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n\t<meta
+        http-equiv=\"Pragma\" content=\"no-cache\" />\n\t<meta name=\"generator\"
+        content=\"mec.gov.br\" />\n\t<meta name=\"description\" content=\"Ministrio
+        da Educao - Brasil\" />\n\t<meta name=\"keywords\" content=\"Ministrio da
+        Educao, ProUni, MEC, Site MEC, ensino, estudo, brasil, governo, federal, acessibilidade,
+        faculdades, ensino superior, ensino mdio, ensino fundamental, escola\" />\n\t<meta
+        name=\"resource-type\" content=\"document\" />\n\t<meta http-equiv=\"Cache-Control\"
+        content=\"no-cache\" />\n\t<meta http-equiv=\"Pragma\" content=\"no-cache\"
+        />\n\t<meta name=\"classification\" content=\"Internet\" />\n\t<meta name=\"robots\"
+        content=\"ALL\" />\n\t<meta name=\"rating\" content=\"General\" />\n\t<meta
+        name=\"copyright\" content=\"MEC\" />\n\t<meta name=\"language\" content=\"pt-br\"
+        />\n\t<meta name=\"doc-class\" content=\"Completed\" />\n\t<meta name=\"doc-rights\"
+        content=\"Public\" />\n\t<meta name=\"DC.title\" content=\"MEC\" />\n\t<meta
+        name=\"geo.region\" content=\"BR-DF\" />\n\t<meta name=\"geo.placename\" content=\"Distrito
+        Federal\" />\n\t<meta name=\"distribution\" content=\"Global\" />\n\t<meta
+        name=\"revisit-after\" content=\"1\" />\n\t<meta http-equiv=\"Pragma\" content=\"no-cache\"
+        />\n\t<meta http-equiv=\"Cache-Control\" content=\"no-cache\" />\n\t<meta
+        http-equiv=\"Cache-Control\" content=\"must-revalidate\" />\n\t<meta http-equiv=\"Expires\"
+        content=\"Mon, 1 Jan 2006 05:00:00\" />\n\t<title>Minist&eacute;rio da Educa&ccedil;&atilde;o
+        - MEC</title>\n\t<link class=\"component\" href=\"/EnemSolicitacao/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/basic_classes.xcss/DATB/eAGbUnaFO3T5DGkAEaUDmQ__\"
+        rel=\"stylesheet\" type=\"text/css\" /><link class=\"component\" href=\"/EnemSolicitacao/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAGbUnaFO3T5DGkAEaUDmQ__\"
+        media=\"rich-extended-skinning\" rel=\"stylesheet\" type=\"text/css\" /><link
+        class=\"component\" href=\"/EnemSolicitacao/a4j/s/3_3_3.Finalcss/panel.xcss/DATB/eAGbUnaFO3T5DGkAEaUDmQ__\"
+        rel=\"stylesheet\" type=\"text/css\" /><script src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalorg.ajax4jsf.javascript.PrototypeScript\"
+        type=\"text/javascript\"></script><script src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalscripts/scriptaculous/effects.js\"
+        type=\"text/javascript\"></script><script src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/script/processEffect.js\"
+        type=\"text/javascript\"></script><script src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalorg.ajax4jsf.javascript.AjaxScript\"
+        type=\"text/javascript\"></script><script src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/datascroller.js\"
+        type=\"text/javascript\"></script><link class=\"component\" href=\"/EnemSolicitacao/a4j/s/3_3_3.Finalcss/datascroller.xcss/DATB/eAGbUnaFO3T5DGkAEaUDmQ__\"
+        rel=\"stylesheet\" type=\"text/css\" /><link class=\"component\" href=\"/EnemSolicitacao/a4j/s/3_3_3.Finalcss/table.xcss/DATB/eAGbUnaFO3T5DGkAEaUDmQ__\"
+        rel=\"stylesheet\" type=\"text/css\" /><script type=\"text/javascript\">window.RICH_FACES_EXTENDED_SKINNING_ON=true;</script><script
+        src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/skinning.js\"
+        type=\"text/javascript\"></script><link class=\"user\" href=\"/EnemSolicitacao/a4j/g/3_3_3.Finalform/form.css\"
+        rel=\"stylesheet\" type=\"text/css\" /><script src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalform/form.js\"
+        type=\"text/javascript\"></script><link rel=\"shortcut icon\" href=\"favicon.ico\"
+        type=\"image/x-icon\" />\n\t<link rel=\"stylesheet\" media=\"screen\" href=\"http://public.inep.gov.br/MECdefault/css/screen.css\"
+        />\n\t<link rel=\"stylesheet\" media=\"print\" href=\"http://public.inep.gov.br/MECdefault/css/print.css\"
+        />\n\t\n    \n    <script>\n\t\t//<![CDATA[\n\t\t\tvar loadPrototype\t= (!(typeof
+        Prototype=='undefined')) ? ((!Prototype.Version)|| false) : false;\n\t\t\tif(loadPrototype){\n\t\t\t\t//document.write('<script
+        type=\"text/javascript\" src=\"http://public.inep.gov.br/MECdefault/js/lib/prototype/prototype.js\"><\\/script>');\n\t\t\t}\n\t\t\t\n\t\t\tvar
+        loadFormulario\t= (typeof Formulario=='undefined') || false;\n\t\t\tif(loadFormulario){\n\t\t\t\t//document.write('<script
+        type=\"text/javascript\" src=\"http://public.inep.gov.br/MECdefault/js/class/component/Formulario.js\"><\\/script>');\n\t\t\t}\n\t\t//]]>\n\t</script>\n\t<script
+        src=\"http://public.inep.gov.br/MECdefault/js/lib/scriptaculous/scriptaculous.js?load=effects\"></script>\n\t\n\t<script
+        src=\"http://public.inep.gov.br/MECdefault/js/class/InepMain.js\"></script>\n\t<style
+        type=\"text/css\">\n\t\t.AcessibilidadeBotoes {\n\t\t\twidth: 300px; \n\t\t\theight:
+        22px;\n\t\t\ttext-align: right;\n\t\t\tmargin-left: auto; \n\t\t\tpadding:
+        5px;\n\t\t}\n\n\t\t#FonteNormal {\n\t\t\tcolor: white;\n\t\t\ttext-decoration:
+        none;\n\t\t}\n\t\t\n\t\t#AumentarFonte {\n\t\t\tcolor: white;\n\t\t\ttext-decoration:
+        none;\n\t\t}\n\t\t\n\t\t#DiminuirFonte {\n\t\t\tcolor: white;\n\t\t\ttext-decoration:
+        none;\n\t\t}\n\t</style>\n\t\t<link href=\"/EnemSolicitacao/stylesheet/site.css\"
+        rel=\"stylesheet\" type=\"text/css\" />\n\t\t<script language=\"JavaScript\">\n\t
+        \   \tjavascript:window.history.forward(1);\t\n\t    </script>\n\t    <script
+        language=\"javascript\" type=\"text/javascript\">\n\t\tsomenteNumeros = function(e)
+        {\n\t\t\tvar tecla = (window.event) ? event.keyCode : e.which;\n\t       \tif
+        (tecla > 47 && tecla < 58) {\n\t\t\t\treturn true;\n\t\t\t}\n\t\t\tif (tecla
+        == 8 || tecla == 0) {\n\t\t\t\treturn true;\n\t\t\t}\n\t\t\treturn false;\n\t\t}\n\t</script>\n</head>\n\n<body>\n<div
+        id=\"barra-brasil\">\n   <a href=\"http://brasil.gov.br\" style=\"background:#7F7F7F;
+        height: 20px; padding:4px 0 4px 10px; display: block; font-family:sans,sans-serif;
+        text-decoration:none; color:white; \">Portal do Governo Brasileiro</a>\n</div>\n\n\n<div
+        id=\"Wrapper\">\n\t\n\t<div id=\"Header\">\n\t\t<div id=\"LogoRepublica\">\n\t\t<img
+        src=\"http://public.inep.gov.br/MECdefault/files/images/logos/republica.jpg\"
+        class=\"OnlyPrint\" />\n\t\t</div>\n\t\t\n\t\t<div class=\"INEP\">\n\t\t\t<div
+        id=\"LinkINEP\" class=\"NoPrint\"></div>\n\t\t\t<h2 class=\"OnlyPrint\"><a
+        href=\"http://www.inep.gov.br/\">Instituto Nacional de Estudos e <br /> Pesquisas
+        Educacionais An&iacute;sio Teixeira</a></h2>\n\t\t\t<div class=\"AcessibilidadeBotoes\">\n
+        \             <a href=\"javascript:controlFontSize('0', 180, 60); void(0);\"
+        id=\"FonteNormal\">\n                <img width=\"15\" height=\"15\" alt=\"Fonte
+        normal\" src=\"http://public.inep.gov.br/MECdefault/files/images/a_normal.png\"
+        />\n              </a>\n              <a href=\"javascript:controlFontSize('+',
+        180, 60); void(0);\" id=\"AumentarFonte\">\n                <img width=\"15\"
+        height=\"15\" alt=\"Aumentar fonte\" src=\"http://public.inep.gov.br/MECdefault/files/images/a_mais.png\"
+        />\n              </a>\n              <a href=\"javascript:controlFontSize('-',
+        180, 60); void(0);\" id=\"DiminuirFonte\">\n                <img width=\"15\"
+        height=\"15\" alt=\"Diminuir fonte.\" src=\"http://public.inep.gov.br/MECdefault/files/images/a_menos.png\"
+        />\n              </a>\n            </div>\n\t\t</div>\n\t\t<div class=\"Topo\">\n\t\t\t<div
+        class=\"Ilustracao\"></div>\n\t\t\t\n\t\t</div>\n\t</div>\n\t\n\t<br class=\"Clear\"
+        />\n\t\n\t<div id=\"LeftMenu\" class=\"NoPrint\">\n<form id=\"menuForm\" name=\"menuForm\"
+        method=\"post\" action=\"/EnemSolicitacao/solicitacao/resultado2014/numeroInscricao/solicitacaoPelaInternet.seam\"
+        enctype=\"application/x-www-form-urlencoded\">\n<input type=\"hidden\" name=\"menuForm\"
+        value=\"menuForm\" />\n\n\t\t<ul>\n\t\t\t<li></li>\n\t\t</ul>\n\t\t<ul>\n\t\t\t<li>\n<script
+        type=\"text/javascript\" language=\"Javascript\">function dpf(f) {var adp
+        = f.adp;if (adp != null) {for (var i = 0;i < adp.length;i++) {f.removeChild(adp[i]);}}};function
+        apf(f, pvp) {var adp = new Array();f.adp = adp;var i = 0;for (k in pvp) {var
+        p = document.createElement(\"input\");p.type = \"hidden\";p.name = k;p.value
+        = pvp[k];f.appendChild(p);adp[i++] = p;}};function jsfcljs(f, pvp, t) {apf(f,
+        pvp);var ft = f.target;if (t) {f.target = t;}f.submit();f.target = ft;dpf(f);};</script>\n<a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id11':'j_id11'},'');}return
+        false\">Administrar respons&aacute;vel</a></li>\n\t\t\t\t\t<li><label>\nSolicitar
+        resultado 2014</label>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"#\"
+        onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id40':'j_id40'},'');}return
+        false\">Por arquivo (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id42':'j_id42'},'');}return
+        false\">Pela internet (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id44':'j_id44'},'');}return
+        false\">Por arquivo (Cpf)</a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\" onclick=\"if(typeof
+        jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id46':'j_id46'},'');}return
+        false\">Pela internet (Cpf)</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li><label>\nSolicitar
+        resultado 2013</label>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"#\"
+        onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id50':'j_id50'},'');}return
+        false\">Por arquivo (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id52':'j_id52'},'');}return
+        false\">Pela internet (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id54':'j_id54'},'');}return
+        false\">Por arquivo (Cpf)</a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\" onclick=\"if(typeof
+        jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id56':'j_id56'},'');}return
+        false\">Pela internet (Cpf)</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li><label>\nSolicitar
+        resultado 2012</label>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"#\"
+        onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id60':'j_id60'},'');}return
+        false\">Por arquivo (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id62':'j_id62'},'');}return
+        false\">Pela internet (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id64':'j_id64'},'');}return
+        false\">Por arquivo (Cpf)</a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\" onclick=\"if(typeof
+        jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id66':'j_id66'},'');}return
+        false\">Pela internet (Cpf)</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li><label>\nSolicitar
+        resultado 2011</label>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"#\"
+        onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id70':'j_id70'},'');}return
+        false\">Por arquivo (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id72':'j_id72'},'');}return
+        false\">Pela internet (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id74':'j_id74'},'');}return
+        false\">Por arquivo (Cpf)</a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\" onclick=\"if(typeof
+        jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id76':'j_id76'},'');}return
+        false\">Pela internet (Cpf)</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li><label>\nSolicitar
+        resultado 2010</label>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"#\"
+        onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id80':'j_id80'},'');}return
+        false\">Por arquivo (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id82':'j_id82'},'');}return
+        false\">Pela internet (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id84':'j_id84'},'');}return
+        false\">Por arquivo (Cpf)</a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\" onclick=\"if(typeof
+        jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id86':'j_id86'},'');}return
+        false\">Pela internet (Cpf)</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li><label>\nSolicitar
+        resultado 2009</label>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"#\"
+        onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id90':'j_id90'},'');}return
+        false\">Por arquivo (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id92':'j_id92'},'');}return
+        false\">Pela internet (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id94':'j_id94'},'');}return
+        false\">Por arquivo (Cpf)</a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\" onclick=\"if(typeof
+        jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id96':'j_id96'},'');}return
+        false\">Pela internet (Cpf)</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li><label>\nSolicitar
+        resultado anos anteriores</label>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id100':'j_id100'},'');}return
+        false\">Por arquivo (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id102':'j_id102'},'');}return
+        false\">Pela internet (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<hr
+        />\n\t\t\t\t\t\t\t<li><a href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id104':'j_id104'},'');}return
+        false\">Acompanhar solicita&ccedil;&atilde;o</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</li>\n\t\t</ul>\n\t\t<ul>\n\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id108':'j_id108'},'');}return
+        false\">Sair</a></li>\n\t\t</ul><input type=\"hidden\" name=\"javax.faces.ViewState\"
+        id=\"javax.faces.ViewState\" value=\"j_id3\" />\n</form>\n\t</div>\n\t<div
+        id=\"ContentHolder\">\n \n\t\t<h4>Solicita&ccedil;&atilde;o pela internet
+        (N&uacute;mero de inscri&ccedil;&atilde;o) para o exame de e 2014<hr />\n\t\t</h4>\n\t\t\n\t\t<p>\n\t\t\tPara
+        acesso aos resultados do Enem 2014, insira o(s) n&ordm;(s) de inscri&ccedil;&atilde;o
+        do Enem dos participantes que deseja pesquisar.<br />\n\t\t\t<br />\n\t\t\tSeguem
+        instru&ccedil;&otilde;es sobre a inser&ccedil;&atilde;o das inscri&ccedil;&otilde;es:<br
+        />                            \n\t\t\t<ol>\n\t\t\t\t<li>Limite de  20 n&ordm;s
+        de inscri&ccedil;&atilde;o por consulta;</li>\n\t\t\t\t<li>Separados por &quot;;&quot;;</li>\n\t\t\t\t<li>N&atilde;o
+        deve conter espa&ccedil;o entre os n&ordm;(s) de inscri&ccedil;&atilde;o.</li>\n\t\t\t</ol>\n\t\t\t
+        \  Ex.: 123456789123;123456789321<br />\n\t\t\tOBS.: Dever&aacute;  ser informado
+        apenas os n&uacute;meros de inscri&ccedil;&atilde;o.\n\t\t</p>\n<form id=\"formularioForm\"
+        name=\"formularioForm\" method=\"post\" action=\"/EnemSolicitacao/solicitacao/resultado2014/numeroInscricao/solicitacaoPelaInternet.seam\"
+        enctype=\"\">\n<input type=\"hidden\" name=\"formularioForm\" value=\"formularioForm\"
+        />\n\n\t\t<script>\n\t\t\tvar formularioForm = new Formulario();\n\t\t\tEvent.observe($('formularioForm'),'submit',function(){\n\t\t\t\tvar
+        form\t= formularioForm;\n\t\t\t\tsetTimeout(function(){\n\t\t\t\t\tform.error\t=
+        new Array();\n\t\t\t\t},10);\n\t\t\t});\n\t\t</script><div id=\"formularioFormMessages\"
+        class=\"Error\"></div><div id=\"j_id121\"><div id=\"numerosInscricaoDecorate\">\n\t\t\t<dl
+        class=\"FieldHolder\">\n\t\t\t\t<dt class=\"t3\"><label id=\"numerosInscricaoDecorate:numerosInscricaoLabel\"
+        for=\"numerosInscricaoDecorate:numerosInscricaoInput\" accesskey=\"\">\nN&uacute;mero
+        de inscri&ccedil;&atilde;o: </label></dt>\n\t\t\t\t<dd class=\"t3\" style=\"\"><input
+        id=\"numerosInscricaoDecorate:numerosInscricaoInput\" type=\"text\" name=\"numerosInscricaoDecorate:numerosInscricaoInput\"
+        autocomplete=\"off\" accesskey=\"\" maxlength=\"300\" onkeydown=\"\" onkeypress=\"\"
+        onkeyup=\"\" style=\"\" title=\"\" />\t\t\t\n\t\t\t\n\t\t\t<script>var seamField_numerosInscricao\t=
+        new Formulario.SeamField('Input', 'numerosInscricao', 'formularioForm', false,
+        '', '', 'true');</script>\n\t\t\t\t\t<div class=\"Error\"><span id=\"numerosInscricaoDecorate:numerosInscricaoErrors\"></span>\n\t\t\t\t\t</div>\n\t\t\t\t</dd>\n\t\t\t</dl></div></div>\n\t\t\t<br
+        class=\"Clear\" /><input type=\"image\" src=\"http://public.inep.gov.br/MECdefault/files/images/botoes/acao/vermelho/pesquisar.jpg\"
+        name=\"j_id131\" />\n\t\t\t<br class=\"Clear\" /><input type=\"hidden\" name=\"javax.faces.ViewState\"
+        id=\"javax.faces.ViewState\" value=\"j_id3\" />\n</form>\n\t\t<br class=\"Clear\"
+        />\n\t\t<br class=\"Clear\" />\n\t\t<br class=\"Clear\" />\n\t</div>\n\t\n\t<br
+        class=\"Clear\" />\n\t\n\t<div id=\"Footer\" class=\"NoPrint\">Copyright MEC
+        - INEP - Instituto Nacional de Estudos e Pesquisas Educacionais An&iacute;sio
+        Teixeira</div>\n</div>\n<script src=\"http://public.inep.gov.br/barra_governo/barra-sistema.js\"
+        type=\"text/javascript\"></script>\n</body>\n</html>"
+    http_version:
+  recorded_at: Mon, 26 Jan 2015 17:37:12 GMT
+- request:
+    method: post
+    uri: http://sistemasenem.inep.gov.br/EnemSolicitacao/solicitacao/resultado2014/numeroInscricao/solicitacaoPelaInternet.seam
+    body:
+      encoding: UTF-8
+      string: formularioForm=formularioForm&numerosInscricaoDecorate%3AnumerosInscricaoInput=123456789012&javax.faces.ViewState=j_id3&j_id131.x=81&j_id131.y=23
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.1) Gecko/20100122 firefox/3.6.1
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - BIGipServerEnem_Legado=3456376236.20480.0000; JSESSIONID=A92CADE9A904529FD02DA795AAA81E1B
+      Host:
+      - sistemasenem.inep.gov.br
+      Referer:
+      - !ruby/object:URI::HTTP
+        scheme: http
+        user:
+        password:
+        host: sistemasenem.inep.gov.br
+        port: 80
+        path: "/EnemSolicitacao/solicitacao/resultado2014/numeroInscricao/solicitacaoPelaInternet.seam"
+        query:
+        opaque:
+        registry:
+        fragment:
+        parser:
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Content-Length:
+      - '145'
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - 300
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      X-Powered-By:
+      - JSF/1.2
+      - 'Servlet 2.4; JBoss-4.3.0.GA_CP06 (build: SVNTag=JBPAPP_4_3_0_GA_CP06 date=200907141446)/JBossWeb-2.0'
+      Content-Type:
+      - text/html;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Mon, 26 Jan 2015 17:37:31 GMT
+    body:
+      encoding: UTF-8
+      string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"
+        >\n<html xml:lang=\"pt-br\" lang=\"pt-br\" xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n\t<meta
+        http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n\t<meta
+        http-equiv=\"Pragma\" content=\"no-cache\" />\n\t<meta name=\"generator\"
+        content=\"mec.gov.br\" />\n\t<meta name=\"description\" content=\"Ministrio
+        da Educao - Brasil\" />\n\t<meta name=\"keywords\" content=\"Ministrio da
+        Educao, ProUni, MEC, Site MEC, ensino, estudo, brasil, governo, federal, acessibilidade,
+        faculdades, ensino superior, ensino mdio, ensino fundamental, escola\" />\n\t<meta
+        name=\"resource-type\" content=\"document\" />\n\t<meta http-equiv=\"Cache-Control\"
+        content=\"no-cache\" />\n\t<meta http-equiv=\"Pragma\" content=\"no-cache\"
+        />\n\t<meta name=\"classification\" content=\"Internet\" />\n\t<meta name=\"robots\"
+        content=\"ALL\" />\n\t<meta name=\"rating\" content=\"General\" />\n\t<meta
+        name=\"copyright\" content=\"MEC\" />\n\t<meta name=\"language\" content=\"pt-br\"
+        />\n\t<meta name=\"doc-class\" content=\"Completed\" />\n\t<meta name=\"doc-rights\"
+        content=\"Public\" />\n\t<meta name=\"DC.title\" content=\"MEC\" />\n\t<meta
+        name=\"geo.region\" content=\"BR-DF\" />\n\t<meta name=\"geo.placename\" content=\"Distrito
+        Federal\" />\n\t<meta name=\"distribution\" content=\"Global\" />\n\t<meta
+        name=\"revisit-after\" content=\"1\" />\n\t<meta http-equiv=\"Pragma\" content=\"no-cache\"
+        />\n\t<meta http-equiv=\"Cache-Control\" content=\"no-cache\" />\n\t<meta
+        http-equiv=\"Cache-Control\" content=\"must-revalidate\" />\n\t<meta http-equiv=\"Expires\"
+        content=\"Mon, 1 Jan 2006 05:00:00\" />\n\t<title>Minist&eacute;rio da Educa&ccedil;&atilde;o
+        - MEC</title>\n\t<link class=\"component\" href=\"/EnemSolicitacao/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/basic_classes.xcss/DATB/eAGbUnaFO3T5DGkAEaUDmQ__\"
+        rel=\"stylesheet\" type=\"text/css\" /><link class=\"component\" href=\"/EnemSolicitacao/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAGbUnaFO3T5DGkAEaUDmQ__\"
+        media=\"rich-extended-skinning\" rel=\"stylesheet\" type=\"text/css\" /><link
+        class=\"component\" href=\"/EnemSolicitacao/a4j/s/3_3_3.Finalcss/panel.xcss/DATB/eAGbUnaFO3T5DGkAEaUDmQ__\"
+        rel=\"stylesheet\" type=\"text/css\" /><script src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalorg.ajax4jsf.javascript.PrototypeScript\"
+        type=\"text/javascript\"></script><script src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalscripts/scriptaculous/effects.js\"
+        type=\"text/javascript\"></script><script src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/script/processEffect.js\"
+        type=\"text/javascript\"></script><script src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalorg.ajax4jsf.javascript.AjaxScript\"
+        type=\"text/javascript\"></script><script src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/datascroller.js\"
+        type=\"text/javascript\"></script><link class=\"component\" href=\"/EnemSolicitacao/a4j/s/3_3_3.Finalcss/datascroller.xcss/DATB/eAGbUnaFO3T5DGkAEaUDmQ__\"
+        rel=\"stylesheet\" type=\"text/css\" /><link class=\"component\" href=\"/EnemSolicitacao/a4j/s/3_3_3.Finalcss/table.xcss/DATB/eAGbUnaFO3T5DGkAEaUDmQ__\"
+        rel=\"stylesheet\" type=\"text/css\" /><script type=\"text/javascript\">window.RICH_FACES_EXTENDED_SKINNING_ON=true;</script><script
+        src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/skinning.js\"
+        type=\"text/javascript\"></script><link class=\"user\" href=\"/EnemSolicitacao/a4j/g/3_3_3.Finalform/form.css\"
+        rel=\"stylesheet\" type=\"text/css\" /><script src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalform/form.js\"
+        type=\"text/javascript\"></script><link rel=\"shortcut icon\" href=\"favicon.ico\"
+        type=\"image/x-icon\" />\n\t<link rel=\"stylesheet\" media=\"screen\" href=\"http://public.inep.gov.br/MECdefault/css/screen.css\"
+        />\n\t<link rel=\"stylesheet\" media=\"print\" href=\"http://public.inep.gov.br/MECdefault/css/print.css\"
+        />\n\t\n    \n    <script>\n\t\t//<![CDATA[\n\t\t\tvar loadPrototype\t= (!(typeof
+        Prototype=='undefined')) ? ((!Prototype.Version)|| false) : false;\n\t\t\tif(loadPrototype){\n\t\t\t\t//document.write('<script
+        type=\"text/javascript\" src=\"http://public.inep.gov.br/MECdefault/js/lib/prototype/prototype.js\"><\\/script>');\n\t\t\t}\n\t\t\t\n\t\t\tvar
+        loadFormulario\t= (typeof Formulario=='undefined') || false;\n\t\t\tif(loadFormulario){\n\t\t\t\t//document.write('<script
+        type=\"text/javascript\" src=\"http://public.inep.gov.br/MECdefault/js/class/component/Formulario.js\"><\\/script>');\n\t\t\t}\n\t\t//]]>\n\t</script>\n\t<script
+        src=\"http://public.inep.gov.br/MECdefault/js/lib/scriptaculous/scriptaculous.js?load=effects\"></script>\n\t\n\t<script
+        src=\"http://public.inep.gov.br/MECdefault/js/class/InepMain.js\"></script>\n\t<style
+        type=\"text/css\">\n\t\t.AcessibilidadeBotoes {\n\t\t\twidth: 300px; \n\t\t\theight:
+        22px;\n\t\t\ttext-align: right;\n\t\t\tmargin-left: auto; \n\t\t\tpadding:
+        5px;\n\t\t}\n\n\t\t#FonteNormal {\n\t\t\tcolor: white;\n\t\t\ttext-decoration:
+        none;\n\t\t}\n\t\t\n\t\t#AumentarFonte {\n\t\t\tcolor: white;\n\t\t\ttext-decoration:
+        none;\n\t\t}\n\t\t\n\t\t#DiminuirFonte {\n\t\t\tcolor: white;\n\t\t\ttext-decoration:
+        none;\n\t\t}\n\t</style>\n\t\t<link href=\"/EnemSolicitacao/stylesheet/site.css\"
+        rel=\"stylesheet\" type=\"text/css\" />\n\t\t<script language=\"JavaScript\">\n\t
+        \   \tjavascript:window.history.forward(1);\t\n\t    </script>\n\t    <script
+        language=\"javascript\" type=\"text/javascript\">\n\t\tsomenteNumeros = function(e)
+        {\n\t\t\tvar tecla = (window.event) ? event.keyCode : e.which;\n\t       \tif
+        (tecla > 47 && tecla < 58) {\n\t\t\t\treturn true;\n\t\t\t}\n\t\t\tif (tecla
+        == 8 || tecla == 0) {\n\t\t\t\treturn true;\n\t\t\t}\n\t\t\treturn false;\n\t\t}\n\t</script>\n</head>\n\n<body>\n<div
+        id=\"barra-brasil\">\n   <a href=\"http://brasil.gov.br\" style=\"background:#7F7F7F;
+        height: 20px; padding:4px 0 4px 10px; display: block; font-family:sans,sans-serif;
+        text-decoration:none; color:white; \">Portal do Governo Brasileiro</a>\n</div>\n\n\n<div
+        id=\"Wrapper\">\n\t\n\t<div id=\"Header\">\n\t\t<div id=\"LogoRepublica\">\n\t\t<img
+        src=\"http://public.inep.gov.br/MECdefault/files/images/logos/republica.jpg\"
+        class=\"OnlyPrint\" />\n\t\t</div>\n\t\t\n\t\t<div class=\"INEP\">\n\t\t\t<div
+        id=\"LinkINEP\" class=\"NoPrint\"></div>\n\t\t\t<h2 class=\"OnlyPrint\"><a
+        href=\"http://www.inep.gov.br/\">Instituto Nacional de Estudos e <br /> Pesquisas
+        Educacionais An&iacute;sio Teixeira</a></h2>\n\t\t\t<div class=\"AcessibilidadeBotoes\">\n
+        \             <a href=\"javascript:controlFontSize('0', 180, 60); void(0);\"
+        id=\"FonteNormal\">\n                <img width=\"15\" height=\"15\" alt=\"Fonte
+        normal\" src=\"http://public.inep.gov.br/MECdefault/files/images/a_normal.png\"
+        />\n              </a>\n              <a href=\"javascript:controlFontSize('+',
+        180, 60); void(0);\" id=\"AumentarFonte\">\n                <img width=\"15\"
+        height=\"15\" alt=\"Aumentar fonte\" src=\"http://public.inep.gov.br/MECdefault/files/images/a_mais.png\"
+        />\n              </a>\n              <a href=\"javascript:controlFontSize('-',
+        180, 60); void(0);\" id=\"DiminuirFonte\">\n                <img width=\"15\"
+        height=\"15\" alt=\"Diminuir fonte.\" src=\"http://public.inep.gov.br/MECdefault/files/images/a_menos.png\"
+        />\n              </a>\n            </div>\n\t\t</div>\n\t\t<div class=\"Topo\">\n\t\t\t<div
+        class=\"Ilustracao\"></div>\n\t\t\t\n\t\t</div>\n\t</div>\n\t\n\t<br class=\"Clear\"
+        />\n\t\n\t<div id=\"LeftMenu\" class=\"NoPrint\">\n<form id=\"menuForm\" name=\"menuForm\"
+        method=\"post\" action=\"/EnemSolicitacao/solicitacao/resultado2014/numeroInscricao/solicitacaoPelaInternet.seam\"
+        enctype=\"application/x-www-form-urlencoded\">\n<input type=\"hidden\" name=\"menuForm\"
+        value=\"menuForm\" />\n\n\t\t<ul>\n\t\t\t<li></li>\n\t\t</ul>\n\t\t<ul>\n\t\t\t<li>\n<script
+        type=\"text/javascript\" language=\"Javascript\">function dpf(f) {var adp
+        = f.adp;if (adp != null) {for (var i = 0;i < adp.length;i++) {f.removeChild(adp[i]);}}};function
+        apf(f, pvp) {var adp = new Array();f.adp = adp;var i = 0;for (k in pvp) {var
+        p = document.createElement(\"input\");p.type = \"hidden\";p.name = k;p.value
+        = pvp[k];f.appendChild(p);adp[i++] = p;}};function jsfcljs(f, pvp, t) {apf(f,
+        pvp);var ft = f.target;if (t) {f.target = t;}f.submit();f.target = ft;dpf(f);};</script>\n<a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id11':'j_id11'},'');}return
+        false\">Administrar respons&aacute;vel</a></li>\n\t\t\t\t\t<li><label>\nSolicitar
+        resultado 2014</label>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"#\"
+        onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id40':'j_id40'},'');}return
+        false\">Por arquivo (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id42':'j_id42'},'');}return
+        false\">Pela internet (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id44':'j_id44'},'');}return
+        false\">Por arquivo (Cpf)</a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\" onclick=\"if(typeof
+        jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id46':'j_id46'},'');}return
+        false\">Pela internet (Cpf)</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li><label>\nSolicitar
+        resultado 2013</label>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"#\"
+        onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id50':'j_id50'},'');}return
+        false\">Por arquivo (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id52':'j_id52'},'');}return
+        false\">Pela internet (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id54':'j_id54'},'');}return
+        false\">Por arquivo (Cpf)</a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\" onclick=\"if(typeof
+        jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id56':'j_id56'},'');}return
+        false\">Pela internet (Cpf)</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li><label>\nSolicitar
+        resultado 2012</label>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"#\"
+        onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id60':'j_id60'},'');}return
+        false\">Por arquivo (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id62':'j_id62'},'');}return
+        false\">Pela internet (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id64':'j_id64'},'');}return
+        false\">Por arquivo (Cpf)</a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\" onclick=\"if(typeof
+        jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id66':'j_id66'},'');}return
+        false\">Pela internet (Cpf)</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li><label>\nSolicitar
+        resultado 2011</label>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"#\"
+        onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id70':'j_id70'},'');}return
+        false\">Por arquivo (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id72':'j_id72'},'');}return
+        false\">Pela internet (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id74':'j_id74'},'');}return
+        false\">Por arquivo (Cpf)</a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\" onclick=\"if(typeof
+        jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id76':'j_id76'},'');}return
+        false\">Pela internet (Cpf)</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li><label>\nSolicitar
+        resultado 2010</label>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"#\"
+        onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id80':'j_id80'},'');}return
+        false\">Por arquivo (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id82':'j_id82'},'');}return
+        false\">Pela internet (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id84':'j_id84'},'');}return
+        false\">Por arquivo (Cpf)</a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\" onclick=\"if(typeof
+        jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id86':'j_id86'},'');}return
+        false\">Pela internet (Cpf)</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li><label>\nSolicitar
+        resultado 2009</label>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"#\"
+        onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id90':'j_id90'},'');}return
+        false\">Por arquivo (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id92':'j_id92'},'');}return
+        false\">Pela internet (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id94':'j_id94'},'');}return
+        false\">Por arquivo (Cpf)</a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\" onclick=\"if(typeof
+        jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id96':'j_id96'},'');}return
+        false\">Pela internet (Cpf)</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li><label>\nSolicitar
+        resultado anos anteriores</label>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id100':'j_id100'},'');}return
+        false\">Por arquivo (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id102':'j_id102'},'');}return
+        false\">Pela internet (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<hr
+        />\n\t\t\t\t\t\t\t<li><a href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id104':'j_id104'},'');}return
+        false\">Acompanhar solicita&ccedil;&atilde;o</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</li>\n\t\t</ul>\n\t\t<ul>\n\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id108':'j_id108'},'');}return
+        false\">Sair</a></li>\n\t\t</ul><input type=\"hidden\" name=\"javax.faces.ViewState\"
+        id=\"javax.faces.ViewState\" value=\"j_id4\" />\n</form>\n\t</div>\n\t<div
+        id=\"ContentHolder\">\n \n\t\t<h4>Solicita&ccedil;&atilde;o pela internet
+        (N&uacute;mero de inscri&ccedil;&atilde;o) para o exame de e 2014<hr />\n\t\t</h4>\n\t\t\n\t\t<p>\n\t\t\tPara
+        acesso aos resultados do Enem 2014, insira o(s) n&ordm;(s) de inscri&ccedil;&atilde;o
+        do Enem dos participantes que deseja pesquisar.<br />\n\t\t\t<br />\n\t\t\tSeguem
+        instru&ccedil;&otilde;es sobre a inser&ccedil;&atilde;o das inscri&ccedil;&otilde;es:<br
+        />                            \n\t\t\t<ol>\n\t\t\t\t<li>Limite de  20 n&ordm;s
+        de inscri&ccedil;&atilde;o por consulta;</li>\n\t\t\t\t<li>Separados por &quot;;&quot;;</li>\n\t\t\t\t<li>N&atilde;o
+        deve conter espa&ccedil;o entre os n&ordm;(s) de inscri&ccedil;&atilde;o.</li>\n\t\t\t</ol>\n\t\t\t
+        \  Ex.: 123456789123;123456789321<br />\n\t\t\tOBS.: Dever&aacute;  ser informado
+        apenas os n&uacute;meros de inscri&ccedil;&atilde;o.\n\t\t</p>\n<form id=\"formularioForm\"
+        name=\"formularioForm\" method=\"post\" action=\"/EnemSolicitacao/solicitacao/resultado2014/numeroInscricao/solicitacaoPelaInternet.seam\"
+        enctype=\"\">\n<input type=\"hidden\" name=\"formularioForm\" value=\"formularioForm\"
+        />\n\n\t\t<script>\n\t\t\tvar formularioForm = new Formulario();\n\t\t\tEvent.observe($('formularioForm'),'submit',function(){\n\t\t\t\tvar
+        form\t= formularioForm;\n\t\t\t\tsetTimeout(function(){\n\t\t\t\t\tform.error\t=
+        new Array();\n\t\t\t\t},10);\n\t\t\t});\n\t\t</script><div id=\"formularioFormMessages\"
+        class=\"Error\"></div><div id=\"j_id121\"><div id=\"numerosInscricaoDecorate\">\n\t\t\t<dl
+        class=\"FieldHolder\">\n\t\t\t\t<dt class=\"t3\"><label id=\"numerosInscricaoDecorate:numerosInscricaoLabel\"
+        for=\"numerosInscricaoDecorate:numerosInscricaoInput\" accesskey=\"\">\nN&uacute;mero
+        de inscri&ccedil;&atilde;o: </label></dt>\n\t\t\t\t<dd class=\"t3\" style=\"\"><input
+        id=\"numerosInscricaoDecorate:numerosInscricaoInput\" type=\"text\" name=\"numerosInscricaoDecorate:numerosInscricaoInput\"
+        autocomplete=\"off\" value=\"123456789012\" accesskey=\"\" maxlength=\"300\"
+        onkeydown=\"\" onkeypress=\"\" onkeyup=\"\" style=\"\" title=\"\" />\t\t\t\n\t\t\t\n\t\t\t<script>var
+        seamField_numerosInscricao\t= new Formulario.SeamField('Input', 'numerosInscricao',
+        'formularioForm', false, '', '', 'true');</script>\n\t\t\t\t\t<div class=\"Error\"><span
+        id=\"numerosInscricaoDecorate:numerosInscricaoErrors\"></span>\n\t\t\t\t\t</div>\n\t\t\t\t</dd>\n\t\t\t</dl></div></div>\n\t\t\t<br
+        class=\"Clear\" /><input type=\"image\" src=\"http://public.inep.gov.br/MECdefault/files/images/botoes/acao/vermelho/pesquisar.jpg\"
+        name=\"j_id131\" />\n\t\t\t<br class=\"Clear\" /><input type=\"hidden\" name=\"javax.faces.ViewState\"
+        id=\"javax.faces.ViewState\" value=\"j_id4\" />\n</form>\n\t\t<br class=\"Clear\"
+        />\n\t\t<br class=\"Clear\" />\n\t\t<br class=\"Clear\" />\n<form id=\"resultadoForm\"
+        name=\"resultadoForm\" method=\"post\" action=\"/EnemSolicitacao/solicitacao/resultado2014/numeroInscricao/solicitacaoPelaInternet.seam\"
+        enctype=\"\">\n<input type=\"hidden\" name=\"resultadoForm\" value=\"resultadoForm\"
+        />\n\n\t\t<script>\n\t\t\tvar resultadoForm = new Formulario();\n\t\t\tEvent.observe($('resultadoForm'),'submit',function(){\n\t\t\t\tvar
+        form\t= resultadoForm;\n\t\t\t\tsetTimeout(function(){\n\t\t\t\t\tform.error\t=
+        new Array();\n\t\t\t\t},10);\n\t\t\t});\n\t\t</script><div class=\"rich-datascr
+        \" id=\"j_id142\" style=\" ; display: none\" align=\"center\"><script type=\"text/javascript\">new
+        Richfaces.Datascroller('j_id142', function(event){A4J.AJAX.Submit('resultadoForm',event,{'ignoreDupResponses':true,'implicitEventsQueue':'j_id142','similarityGroupingId':'j_id142','parameters':{'j_id142':event.memo.page,'ajaxSingle':'j_id142'}
+        } ); return false;});</script></div><table class=\"rich-table \" id=\"inscritoLista\"
+        align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><colgroup
+        span=\"10\"></colgroup><thead class=\"rich-table-thead\"><tr class=\"rich-table-header
+        \ \"><th class=\"rich-table-headercell \" id=\"inscritoLista:j_id144\">Selecionar</th><th
+        class=\"rich-table-headercell \" id=\"inscritoLista:j_id146\">N&uacute;mero
+        de Inscri&ccedil;&atilde;o</th><th class=\"rich-table-headercell \" id=\"inscritoLista:j_id148\">Cpf</th><th
+        class=\"rich-table-headercell \" id=\"inscritoLista:j_id150\">Nome</th><th
+        class=\"rich-table-headercell \" id=\"inscritoLista:j_id152\">Nome da M&atilde;e</th><th
+        class=\"rich-table-headercell \" id=\"inscritoLista:j_id154\">Data de Nascimento</th><th
+        class=\"rich-table-headercell \" id=\"inscritoLista:j_id156\">Sexo</th><th
+        class=\"rich-table-headercell \" id=\"inscritoLista:j_id158\">Identidade</th><th
+        class=\"rich-table-headercell \" id=\"inscritoLista:j_id160\">UF de prova</th><th
+        class=\"rich-table-headercell \" id=\"inscritoLista:j_id162\">Cidade de prova</th></tr></thead><tbody
+        id=\"inscritoLista:tb\"><tr class=\"rich-table-firstrow \"><td class=\"rich-table-cell
+        \" id=\"inscritoLista:0:j_id165\">\n\t\t\t\t\t\t<div align=\"center\"><input
+        type=\"checkbox\" name=\"inscritoLista:0:j_id167\" checked=\"checked\" />\n\t\t\t\t\t\t</div></td><td
+        class=\"rich-table-cell \" id=\"inscritoLista:0:j_id169\">\n\t\t\t\t\t \t<div
+        align=\"center\">123456789012\n\t\t\t\t\t \t</div></td><td class=\"rich-table-cell
+        \" id=\"inscritoLista:0:j_id173\">\n\t\t\t\t\t \t<div align=\"center\">11111111111\n\t\t\t\t\t
+        \t</div></td><td class=\"rich-table-cell \" id=\"inscritoLista:0:j_id177\">AAAAAAAAA
+        BBBBBBBBB CCCCCCCCC</td><td class=\"rich-table-cell \" id=\"inscritoLista:0:j_id179\">DDDDDD
+        EEEEEEEEE FFFFFFFFF</td><td class=\"rich-table-cell \" id=\"inscritoLista:0:j_id181\">01/01/1990</td><td
+        class=\"rich-table-cell \" id=\"inscritoLista:0:j_id183\">M</td><td class=\"rich-table-cell
+        \" id=\"inscritoLista:0:j_id185\">2222222-SSP/SC</td><td class=\"rich-table-cell
+        \" id=\"inscritoLista:0:j_id187\">PR</td><td class=\"rich-table-cell \" id=\"inscritoLista:0:j_id189\">FOZ
+        DO IGUACU</td></tr></tbody></table><input type=\"image\" src=\"http://public.inep.gov.br/MECdefault/files/images/botoes/acao/vermelho/salvar.jpg\"
+        name=\"j_id191\" /><input type=\"hidden\" name=\"javax.faces.ViewState\" id=\"javax.faces.ViewState\"
+        value=\"j_id4\" />\n</form>\n\t</div>\n\t\n\t<br class=\"Clear\" />\n\t\n\t<div
+        id=\"Footer\" class=\"NoPrint\">Copyright MEC - INEP - Instituto Nacional
+        de Estudos e Pesquisas Educacionais An&iacute;sio Teixeira</div>\n</div>\n<script
+        src=\"http://public.inep.gov.br/barra_governo/barra-sistema.js\" type=\"text/javascript\"></script>\n</body>\n</html>"
+    http_version:
+  recorded_at: Mon, 26 Jan 2015 17:37:16 GMT
+- request:
+    method: post
+    uri: http://sistemasenem.inep.gov.br/EnemSolicitacao/solicitacao/resultado2014/numeroInscricao/solicitacaoPelaInternet.seam
+    body:
+      encoding: UTF-8
+      string: resultadoForm=resultadoForm&inscritoLista%3A0%3Aj_id167=on&javax.faces.ViewState=j_id4&j_id191.x=72&j_id191.y=19
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.1) Gecko/20100122 firefox/3.6.1
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - BIGipServerEnem_Legado=3456376236.20480.0000; JSESSIONID=A92CADE9A904529FD02DA795AAA81E1B
+      Host:
+      - sistemasenem.inep.gov.br
+      Referer:
+      - !ruby/object:URI::HTTP
+        scheme: http
+        user:
+        password:
+        host: sistemasenem.inep.gov.br
+        port: 80
+        path: "/EnemSolicitacao/solicitacao/resultado2014/numeroInscricao/solicitacaoPelaInternet.seam"
+        query:
+        opaque:
+        registry:
+        fragment:
+        parser:
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Content-Length:
+      - '112'
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - 300
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      X-Powered-By:
+      - JSF/1.2
+      - 'Servlet 2.4; JBoss-4.3.0.GA_CP06 (build: SVNTag=JBPAPP_4_3_0_GA_CP06 date=200907141446)/JBossWeb-2.0'
+      Content-Type:
+      - text/html;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Mon, 26 Jan 2015 17:37:33 GMT
+    body:
+      encoding: UTF-8
+      string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"
+        >\n<html xml:lang=\"pt-br\" lang=\"pt-br\" xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n\t<meta
+        http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n\t<meta
+        http-equiv=\"Pragma\" content=\"no-cache\" />\n\t<meta name=\"generator\"
+        content=\"mec.gov.br\" />\n\t<meta name=\"description\" content=\"Ministrio
+        da Educao - Brasil\" />\n\t<meta name=\"keywords\" content=\"Ministrio da
+        Educao, ProUni, MEC, Site MEC, ensino, estudo, brasil, governo, federal, acessibilidade,
+        faculdades, ensino superior, ensino mdio, ensino fundamental, escola\" />\n\t<meta
+        name=\"resource-type\" content=\"document\" />\n\t<meta http-equiv=\"Cache-Control\"
+        content=\"no-cache\" />\n\t<meta http-equiv=\"Pragma\" content=\"no-cache\"
+        />\n\t<meta name=\"classification\" content=\"Internet\" />\n\t<meta name=\"robots\"
+        content=\"ALL\" />\n\t<meta name=\"rating\" content=\"General\" />\n\t<meta
+        name=\"copyright\" content=\"MEC\" />\n\t<meta name=\"language\" content=\"pt-br\"
+        />\n\t<meta name=\"doc-class\" content=\"Completed\" />\n\t<meta name=\"doc-rights\"
+        content=\"Public\" />\n\t<meta name=\"DC.title\" content=\"MEC\" />\n\t<meta
+        name=\"geo.region\" content=\"BR-DF\" />\n\t<meta name=\"geo.placename\" content=\"Distrito
+        Federal\" />\n\t<meta name=\"distribution\" content=\"Global\" />\n\t<meta
+        name=\"revisit-after\" content=\"1\" />\n\t<meta http-equiv=\"Pragma\" content=\"no-cache\"
+        />\n\t<meta http-equiv=\"Cache-Control\" content=\"no-cache\" />\n\t<meta
+        http-equiv=\"Cache-Control\" content=\"must-revalidate\" />\n\t<meta http-equiv=\"Expires\"
+        content=\"Mon, 1 Jan 2006 05:00:00\" />\n\t<title>Minist&eacute;rio da Educa&ccedil;&atilde;o
+        - MEC</title>\n\t<link class=\"component\" href=\"/EnemSolicitacao/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/basic_classes.xcss/DATB/eAGbUnaFO3T5DGkAEaUDmQ__\"
+        rel=\"stylesheet\" type=\"text/css\" /><link class=\"component\" href=\"/EnemSolicitacao/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAGbUnaFO3T5DGkAEaUDmQ__\"
+        media=\"rich-extended-skinning\" rel=\"stylesheet\" type=\"text/css\" /><link
+        class=\"component\" href=\"/EnemSolicitacao/a4j/s/3_3_3.Finalcss/panel.xcss/DATB/eAGbUnaFO3T5DGkAEaUDmQ__\"
+        rel=\"stylesheet\" type=\"text/css\" /><script src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalorg.ajax4jsf.javascript.PrototypeScript\"
+        type=\"text/javascript\"></script><script src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalscripts/scriptaculous/effects.js\"
+        type=\"text/javascript\"></script><script src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/script/processEffect.js\"
+        type=\"text/javascript\"></script><script src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalorg.ajax4jsf.javascript.AjaxScript\"
+        type=\"text/javascript\"></script><script src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/datascroller.js\"
+        type=\"text/javascript\"></script><link class=\"component\" href=\"/EnemSolicitacao/a4j/s/3_3_3.Finalcss/datascroller.xcss/DATB/eAGbUnaFO3T5DGkAEaUDmQ__\"
+        rel=\"stylesheet\" type=\"text/css\" /><link class=\"component\" href=\"/EnemSolicitacao/a4j/s/3_3_3.Finalcss/table.xcss/DATB/eAGbUnaFO3T5DGkAEaUDmQ__\"
+        rel=\"stylesheet\" type=\"text/css\" /><script type=\"text/javascript\">window.RICH_FACES_EXTENDED_SKINNING_ON=true;</script><script
+        src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/skinning.js\"
+        type=\"text/javascript\"></script><link class=\"user\" href=\"/EnemSolicitacao/a4j/g/3_3_3.Finalform/form.css\"
+        rel=\"stylesheet\" type=\"text/css\" /><script src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalform/form.js\"
+        type=\"text/javascript\"></script><link rel=\"shortcut icon\" href=\"favicon.ico\"
+        type=\"image/x-icon\" />\n\t<link rel=\"stylesheet\" media=\"screen\" href=\"http://public.inep.gov.br/MECdefault/css/screen.css\"
+        />\n\t<link rel=\"stylesheet\" media=\"print\" href=\"http://public.inep.gov.br/MECdefault/css/print.css\"
+        />\n\t\n    \n    <script>\n\t\t//<![CDATA[\n\t\t\tvar loadPrototype\t= (!(typeof
+        Prototype=='undefined')) ? ((!Prototype.Version)|| false) : false;\n\t\t\tif(loadPrototype){\n\t\t\t\t//document.write('<script
+        type=\"text/javascript\" src=\"http://public.inep.gov.br/MECdefault/js/lib/prototype/prototype.js\"><\\/script>');\n\t\t\t}\n\t\t\t\n\t\t\tvar
+        loadFormulario\t= (typeof Formulario=='undefined') || false;\n\t\t\tif(loadFormulario){\n\t\t\t\t//document.write('<script
+        type=\"text/javascript\" src=\"http://public.inep.gov.br/MECdefault/js/class/component/Formulario.js\"><\\/script>');\n\t\t\t}\n\t\t//]]>\n\t</script>\n\t<script
+        src=\"http://public.inep.gov.br/MECdefault/js/lib/scriptaculous/scriptaculous.js?load=effects\"></script>\n\t\n\t<script
+        src=\"http://public.inep.gov.br/MECdefault/js/class/InepMain.js\"></script>\n\t<style
+        type=\"text/css\">\n\t\t.AcessibilidadeBotoes {\n\t\t\twidth: 300px; \n\t\t\theight:
+        22px;\n\t\t\ttext-align: right;\n\t\t\tmargin-left: auto; \n\t\t\tpadding:
+        5px;\n\t\t}\n\n\t\t#FonteNormal {\n\t\t\tcolor: white;\n\t\t\ttext-decoration:
+        none;\n\t\t}\n\t\t\n\t\t#AumentarFonte {\n\t\t\tcolor: white;\n\t\t\ttext-decoration:
+        none;\n\t\t}\n\t\t\n\t\t#DiminuirFonte {\n\t\t\tcolor: white;\n\t\t\ttext-decoration:
+        none;\n\t\t}\n\t</style>\n\t\t<link href=\"/EnemSolicitacao/stylesheet/site.css\"
+        rel=\"stylesheet\" type=\"text/css\" />\n\t\t<script language=\"JavaScript\">\n\t
+        \   \tjavascript:window.history.forward(1);\t\n\t    </script>\n\t    <script
+        language=\"javascript\" type=\"text/javascript\">\n\t\tsomenteNumeros = function(e)
+        {\n\t\t\tvar tecla = (window.event) ? event.keyCode : e.which;\n\t       \tif
+        (tecla > 47 && tecla < 58) {\n\t\t\t\treturn true;\n\t\t\t}\n\t\t\tif (tecla
+        == 8 || tecla == 0) {\n\t\t\t\treturn true;\n\t\t\t}\n\t\t\treturn false;\n\t\t}\n\t</script>\n</head>\n\n<body>\n<div
+        id=\"barra-brasil\">\n   <a href=\"http://brasil.gov.br\" style=\"background:#7F7F7F;
+        height: 20px; padding:4px 0 4px 10px; display: block; font-family:sans,sans-serif;
+        text-decoration:none; color:white; \">Portal do Governo Brasileiro</a>\n</div>\n\n\n<div
+        id=\"Wrapper\">\n\t\n\t<div id=\"Header\">\n\t\t<div id=\"LogoRepublica\">\n\t\t<img
+        src=\"http://public.inep.gov.br/MECdefault/files/images/logos/republica.jpg\"
+        class=\"OnlyPrint\" />\n\t\t</div>\n\t\t\n\t\t<div class=\"INEP\">\n\t\t\t<div
+        id=\"LinkINEP\" class=\"NoPrint\"></div>\n\t\t\t<h2 class=\"OnlyPrint\"><a
+        href=\"http://www.inep.gov.br/\">Instituto Nacional de Estudos e <br /> Pesquisas
+        Educacionais An&iacute;sio Teixeira</a></h2>\n\t\t\t<div class=\"AcessibilidadeBotoes\">\n
+        \             <a href=\"javascript:controlFontSize('0', 180, 60); void(0);\"
+        id=\"FonteNormal\">\n                <img width=\"15\" height=\"15\" alt=\"Fonte
+        normal\" src=\"http://public.inep.gov.br/MECdefault/files/images/a_normal.png\"
+        />\n              </a>\n              <a href=\"javascript:controlFontSize('+',
+        180, 60); void(0);\" id=\"AumentarFonte\">\n                <img width=\"15\"
+        height=\"15\" alt=\"Aumentar fonte\" src=\"http://public.inep.gov.br/MECdefault/files/images/a_mais.png\"
+        />\n              </a>\n              <a href=\"javascript:controlFontSize('-',
+        180, 60); void(0);\" id=\"DiminuirFonte\">\n                <img width=\"15\"
+        height=\"15\" alt=\"Diminuir fonte.\" src=\"http://public.inep.gov.br/MECdefault/files/images/a_menos.png\"
+        />\n              </a>\n            </div>\n\t\t</div>\n\t\t<div class=\"Topo\">\n\t\t\t<div
+        class=\"Ilustracao\"></div>\n\t\t\t\n\t\t</div>\n\t</div>\n\t\n\t<br class=\"Clear\"
+        />\n\t\n\t<div id=\"LeftMenu\" class=\"NoPrint\">\n<form id=\"menuForm\" name=\"menuForm\"
+        method=\"post\" action=\"/EnemSolicitacao/solicitacao/resultado2014/numeroInscricao/solicitacaoPelaInternet.seam\"
+        enctype=\"application/x-www-form-urlencoded\">\n<input type=\"hidden\" name=\"menuForm\"
+        value=\"menuForm\" />\n\n\t\t<ul>\n\t\t\t<li></li>\n\t\t</ul>\n\t\t<ul>\n\t\t\t<li>\n<script
+        type=\"text/javascript\" language=\"Javascript\">function dpf(f) {var adp
+        = f.adp;if (adp != null) {for (var i = 0;i < adp.length;i++) {f.removeChild(adp[i]);}}};function
+        apf(f, pvp) {var adp = new Array();f.adp = adp;var i = 0;for (k in pvp) {var
+        p = document.createElement(\"input\");p.type = \"hidden\";p.name = k;p.value
+        = pvp[k];f.appendChild(p);adp[i++] = p;}};function jsfcljs(f, pvp, t) {apf(f,
+        pvp);var ft = f.target;if (t) {f.target = t;}f.submit();f.target = ft;dpf(f);};</script>\n<a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id11':'j_id11'},'');}return
+        false\">Administrar respons&aacute;vel</a></li>\n\t\t\t\t\t<li><label>\nSolicitar
+        resultado 2014</label>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"#\"
+        onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id40':'j_id40'},'');}return
+        false\">Por arquivo (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id42':'j_id42'},'');}return
+        false\">Pela internet (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id44':'j_id44'},'');}return
+        false\">Por arquivo (Cpf)</a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\" onclick=\"if(typeof
+        jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id46':'j_id46'},'');}return
+        false\">Pela internet (Cpf)</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li><label>\nSolicitar
+        resultado 2013</label>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"#\"
+        onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id50':'j_id50'},'');}return
+        false\">Por arquivo (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id52':'j_id52'},'');}return
+        false\">Pela internet (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id54':'j_id54'},'');}return
+        false\">Por arquivo (Cpf)</a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\" onclick=\"if(typeof
+        jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id56':'j_id56'},'');}return
+        false\">Pela internet (Cpf)</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li><label>\nSolicitar
+        resultado 2012</label>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"#\"
+        onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id60':'j_id60'},'');}return
+        false\">Por arquivo (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id62':'j_id62'},'');}return
+        false\">Pela internet (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id64':'j_id64'},'');}return
+        false\">Por arquivo (Cpf)</a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\" onclick=\"if(typeof
+        jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id66':'j_id66'},'');}return
+        false\">Pela internet (Cpf)</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li><label>\nSolicitar
+        resultado 2011</label>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"#\"
+        onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id70':'j_id70'},'');}return
+        false\">Por arquivo (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id72':'j_id72'},'');}return
+        false\">Pela internet (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id74':'j_id74'},'');}return
+        false\">Por arquivo (Cpf)</a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\" onclick=\"if(typeof
+        jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id76':'j_id76'},'');}return
+        false\">Pela internet (Cpf)</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li><label>\nSolicitar
+        resultado 2010</label>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"#\"
+        onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id80':'j_id80'},'');}return
+        false\">Por arquivo (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id82':'j_id82'},'');}return
+        false\">Pela internet (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id84':'j_id84'},'');}return
+        false\">Por arquivo (Cpf)</a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\" onclick=\"if(typeof
+        jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id86':'j_id86'},'');}return
+        false\">Pela internet (Cpf)</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li><label>\nSolicitar
+        resultado 2009</label>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"#\"
+        onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id90':'j_id90'},'');}return
+        false\">Por arquivo (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id92':'j_id92'},'');}return
+        false\">Pela internet (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id94':'j_id94'},'');}return
+        false\">Por arquivo (Cpf)</a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\" onclick=\"if(typeof
+        jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id96':'j_id96'},'');}return
+        false\">Pela internet (Cpf)</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li><label>\nSolicitar
+        resultado anos anteriores</label>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id100':'j_id100'},'');}return
+        false\">Por arquivo (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id102':'j_id102'},'');}return
+        false\">Pela internet (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<hr
+        />\n\t\t\t\t\t\t\t<li><a href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id104':'j_id104'},'');}return
+        false\">Acompanhar solicita&ccedil;&atilde;o</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</li>\n\t\t</ul>\n\t\t<ul>\n\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id108':'j_id108'},'');}return
+        false\">Sair</a></li>\n\t\t</ul><input type=\"hidden\" name=\"javax.faces.ViewState\"
+        id=\"javax.faces.ViewState\" value=\"j_id5\" />\n</form>\n\t</div>\n\t<div
+        id=\"ContentHolder\">\n \n\t\t<h4>Solicita&ccedil;&atilde;o pela internet
+        (N&uacute;mero de inscri&ccedil;&atilde;o) para o exame de e 2014<hr />\n\t\t</h4>\n\t\t\n\t\t<p>\n\t\t\tPara
+        acesso aos resultados do Enem 2014, insira o(s) n&ordm;(s) de inscri&ccedil;&atilde;o
+        do Enem dos participantes que deseja pesquisar.<br />\n\t\t\t<br />\n\t\t\tSeguem
+        instru&ccedil;&otilde;es sobre a inser&ccedil;&atilde;o das inscri&ccedil;&otilde;es:<br
+        />                            \n\t\t\t<ol>\n\t\t\t\t<li>Limite de  20 n&ordm;s
+        de inscri&ccedil;&atilde;o por consulta;</li>\n\t\t\t\t<li>Separados por &quot;;&quot;;</li>\n\t\t\t\t<li>N&atilde;o
+        deve conter espa&ccedil;o entre os n&ordm;(s) de inscri&ccedil;&atilde;o.</li>\n\t\t\t</ol>\n\t\t\t
+        \  Ex.: 123456789123;123456789321<br />\n\t\t\tOBS.: Dever&aacute;  ser informado
+        apenas os n&uacute;meros de inscri&ccedil;&atilde;o.\n\t\t</p>\n<form id=\"formularioForm\"
+        name=\"formularioForm\" method=\"post\" action=\"/EnemSolicitacao/solicitacao/resultado2014/numeroInscricao/solicitacaoPelaInternet.seam\"
+        enctype=\"\">\n<input type=\"hidden\" name=\"formularioForm\" value=\"formularioForm\"
+        />\n\n\t\t<script>\n\t\t\tvar formularioForm = new Formulario();\n\t\t\tEvent.observe($('formularioForm'),'submit',function(){\n\t\t\t\tvar
+        form\t= formularioForm;\n\t\t\t\tsetTimeout(function(){\n\t\t\t\t\tform.error\t=
+        new Array();\n\t\t\t\t},10);\n\t\t\t});\n\t\t</script><div id=\"formularioFormMessages\"
+        class=\"Error\"><div class=\"rich-panel message\" id=\"j_id116\" onclick=\"Richfaces.processEffect(Object.extend({targetId:this},{type:'DropOut',duration:0.8}));\"
+        style=\"padding:0\"><div class=\"rich-panel-body \" id=\"j_id116_body\"><ul><li
+        style=\"padding-left:70px\" class=\"infomsg\">\tSolicita&ccedil;&atilde;o
+        realizada com sucesso! </li></ul></div></div></div><div id=\"j_id121\"><div
+        id=\"numerosInscricaoDecorate\">\n\t\t\t<dl class=\"FieldHolder\">\n\t\t\t\t<dt
+        class=\"t3\"><label id=\"numerosInscricaoDecorate:numerosInscricaoLabel\"
+        for=\"numerosInscricaoDecorate:numerosInscricaoInput\" accesskey=\"\">\nN&uacute;mero
+        de inscri&ccedil;&atilde;o: </label></dt>\n\t\t\t\t<dd class=\"t3\" style=\"\"><input
+        id=\"numerosInscricaoDecorate:numerosInscricaoInput\" type=\"text\" name=\"numerosInscricaoDecorate:numerosInscricaoInput\"
+        autocomplete=\"off\" accesskey=\"\" maxlength=\"300\" onkeydown=\"\" onkeypress=\"\"
+        onkeyup=\"\" style=\"\" title=\"\" />\t\t\t\n\t\t\t\n\t\t\t<script>var seamField_numerosInscricao\t=
+        new Formulario.SeamField('Input', 'numerosInscricao', 'formularioForm', false,
+        '', '', 'true');</script>\n\t\t\t\t\t<div class=\"Error\"><span id=\"numerosInscricaoDecorate:numerosInscricaoErrors\"></span>\n\t\t\t\t\t</div>\n\t\t\t\t</dd>\n\t\t\t</dl></div></div>\n\t\t\t<br
+        class=\"Clear\" /><input type=\"image\" src=\"http://public.inep.gov.br/MECdefault/files/images/botoes/acao/vermelho/pesquisar.jpg\"
+        name=\"j_id131\" />\n\t\t\t<br class=\"Clear\" /><input type=\"hidden\" name=\"javax.faces.ViewState\"
+        id=\"javax.faces.ViewState\" value=\"j_id5\" />\n</form>\n\t\t<br class=\"Clear\"
+        />\n\t\t<br class=\"Clear\" />\n\t\t<br class=\"Clear\" />\n<form id=\"resultadoForm\"
+        name=\"resultadoForm\" method=\"post\" action=\"/EnemSolicitacao/solicitacao/resultado2014/numeroInscricao/solicitacaoPelaInternet.seam\"
+        enctype=\"\">\n<input type=\"hidden\" name=\"resultadoForm\" value=\"resultadoForm\"
+        />\n\n\t\t<script>\n\t\t\tvar resultadoForm = new Formulario();\n\t\t\tEvent.observe($('resultadoForm'),'submit',function(){\n\t\t\t\tvar
+        form\t= resultadoForm;\n\t\t\t\tsetTimeout(function(){\n\t\t\t\t\tform.error\t=
+        new Array();\n\t\t\t\t},10);\n\t\t\t});\n\t\t</script><div class=\"rich-datascr
+        \" id=\"j_id142\" style=\" ; display: none\" align=\"center\"><script type=\"text/javascript\">new
+        Richfaces.Datascroller('j_id142', function(event){A4J.AJAX.Submit('resultadoForm',event,{'ignoreDupResponses':true,'implicitEventsQueue':'j_id142','similarityGroupingId':'j_id142','parameters':{'j_id142':event.memo.page,'ajaxSingle':'j_id142'}
+        } ); return false;});</script></div><table class=\"rich-table \" id=\"inscritoLista\"
+        align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><colgroup
+        span=\"10\"></colgroup><thead class=\"rich-table-thead\"><tr class=\"rich-table-header
+        \ \"><th class=\"rich-table-headercell \" id=\"inscritoLista:j_id144\">Selecionar</th><th
+        class=\"rich-table-headercell \" id=\"inscritoLista:j_id146\">N&uacute;mero
+        de Inscri&ccedil;&atilde;o</th><th class=\"rich-table-headercell \" id=\"inscritoLista:j_id148\">Cpf</th><th
+        class=\"rich-table-headercell \" id=\"inscritoLista:j_id150\">Nome</th><th
+        class=\"rich-table-headercell \" id=\"inscritoLista:j_id152\">Nome da M&atilde;e</th><th
+        class=\"rich-table-headercell \" id=\"inscritoLista:j_id154\">Data de Nascimento</th><th
+        class=\"rich-table-headercell \" id=\"inscritoLista:j_id156\">Sexo</th><th
+        class=\"rich-table-headercell \" id=\"inscritoLista:j_id158\">Identidade</th><th
+        class=\"rich-table-headercell \" id=\"inscritoLista:j_id160\">UF de prova</th><th
+        class=\"rich-table-headercell \" id=\"inscritoLista:j_id162\">Cidade de prova</th></tr></thead><tbody
+        id=\"inscritoLista:tb\"><tr class=\"rich-table-firstrow \"><td class=\"rich-table-cell
+        \" id=\"inscritoLista:0:j_id165\">\n\t\t\t\t\t\t<div align=\"center\"><input
+        type=\"checkbox\" name=\"inscritoLista:0:j_id167\" checked=\"checked\" />\n\t\t\t\t\t\t</div></td><td
+        class=\"rich-table-cell \" id=\"inscritoLista:0:j_id169\">\n\t\t\t\t\t \t<div
+        align=\"center\">123456789012\n\t\t\t\t\t \t</div></td><td class=\"rich-table-cell
+        \" id=\"inscritoLista:0:j_id173\">\n\t\t\t\t\t \t<div align=\"center\">11111111111\n\t\t\t\t\t
+        \t</div></td><td class=\"rich-table-cell \" id=\"inscritoLista:0:j_id177\">AAAAAAAAA
+        BBBBBBBBB CCCCCCCCC</td><td class=\"rich-table-cell \" id=\"inscritoLista:0:j_id179\">DDDDDD
+        EEEEEEEEE FFFFFFFFF</td><td class=\"rich-table-cell \" id=\"inscritoLista:0:j_id181\">01/01/1990</td><td
+        class=\"rich-table-cell \" id=\"inscritoLista:0:j_id183\">M</td><td class=\"rich-table-cell
+        \" id=\"inscritoLista:0:j_id185\">2222222-SSP/SC</td><td class=\"rich-table-cell
+        \" id=\"inscritoLista:0:j_id187\">PR</td><td class=\"rich-table-cell \" id=\"inscritoLista:0:j_id189\">FOZ
+        DO IGUACU</td></tr></tbody></table><input type=\"image\" src=\"http://public.inep.gov.br/MECdefault/files/images/botoes/acao/vermelho/salvar.jpg\"
+        name=\"j_id191\" /><input type=\"hidden\" name=\"javax.faces.ViewState\" id=\"javax.faces.ViewState\"
+        value=\"j_id5\" />\n</form>\n\t</div>\n\t\n\t<br class=\"Clear\" />\n\t\n\t<div
+        id=\"Footer\" class=\"NoPrint\">Copyright MEC - INEP - Instituto Nacional
+        de Estudos e Pesquisas Educacionais An&iacute;sio Teixeira</div>\n</div>\n<script
+        src=\"http://public.inep.gov.br/barra_governo/barra-sistema.js\" type=\"text/javascript\"></script>\n</body>\n</html>"
+    http_version:
+  recorded_at: Mon, 26 Jan 2015 17:37:17 GMT
+- request:
+    method: get
+    uri: http://sistemasenem.inep.gov.br/EnemSolicitacao/solicitacao/acompanharSolicitacao.seam
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.1) Gecko/20100122 firefox/3.6.1
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - BIGipServerEnem_Legado=3456376236.20480.0000; JSESSIONID=A92CADE9A904529FD02DA795AAA81E1B
+      Host:
+      - sistemasenem.inep.gov.br
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - 300
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      X-Powered-By:
+      - JSF/1.2
+      - 'Servlet 2.4; JBoss-4.3.0.GA_CP06 (build: SVNTag=JBPAPP_4_3_0_GA_CP06 date=200907141446)/JBossWeb-2.0'
+      Content-Type:
+      - text/html;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Mon, 26 Jan 2015 17:37:33 GMT
+    body:
+      encoding: UTF-8
+      string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"
+        >\n<html xml:lang=\"pt-br\" lang=\"pt-br\" xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n\t<meta
+        http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n\t<meta
+        http-equiv=\"Pragma\" content=\"no-cache\" />\n\t<meta name=\"generator\"
+        content=\"mec.gov.br\" />\n\t<meta name=\"description\" content=\"Ministrio
+        da Educao - Brasil\" />\n\t<meta name=\"keywords\" content=\"Ministrio da
+        Educao, ProUni, MEC, Site MEC, ensino, estudo, brasil, governo, federal, acessibilidade,
+        faculdades, ensino superior, ensino mdio, ensino fundamental, escola\" />\n\t<meta
+        name=\"resource-type\" content=\"document\" />\n\t<meta http-equiv=\"Cache-Control\"
+        content=\"no-cache\" />\n\t<meta http-equiv=\"Pragma\" content=\"no-cache\"
+        />\n\t<meta name=\"classification\" content=\"Internet\" />\n\t<meta name=\"robots\"
+        content=\"ALL\" />\n\t<meta name=\"rating\" content=\"General\" />\n\t<meta
+        name=\"copyright\" content=\"MEC\" />\n\t<meta name=\"language\" content=\"pt-br\"
+        />\n\t<meta name=\"doc-class\" content=\"Completed\" />\n\t<meta name=\"doc-rights\"
+        content=\"Public\" />\n\t<meta name=\"DC.title\" content=\"MEC\" />\n\t<meta
+        name=\"geo.region\" content=\"BR-DF\" />\n\t<meta name=\"geo.placename\" content=\"Distrito
+        Federal\" />\n\t<meta name=\"distribution\" content=\"Global\" />\n\t<meta
+        name=\"revisit-after\" content=\"1\" />\n\t<meta http-equiv=\"Pragma\" content=\"no-cache\"
+        />\n\t<meta http-equiv=\"Cache-Control\" content=\"no-cache\" />\n\t<meta
+        http-equiv=\"Cache-Control\" content=\"must-revalidate\" />\n\t<meta http-equiv=\"Expires\"
+        content=\"Mon, 1 Jan 2006 05:00:00\" />\n\t<title>Minist&eacute;rio da Educa&ccedil;&atilde;o
+        - MEC</title>\n\t<link class=\"component\" href=\"/EnemSolicitacao/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/basic_classes.xcss/DATB/eAGbUnaFO3T5DGkAEaUDmQ__\"
+        rel=\"stylesheet\" type=\"text/css\" /><link class=\"component\" href=\"/EnemSolicitacao/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAGbUnaFO3T5DGkAEaUDmQ__\"
+        media=\"rich-extended-skinning\" rel=\"stylesheet\" type=\"text/css\" /><link
+        class=\"component\" href=\"/EnemSolicitacao/a4j/s/3_3_3.Finalcss/panel.xcss/DATB/eAGbUnaFO3T5DGkAEaUDmQ__\"
+        rel=\"stylesheet\" type=\"text/css\" /><script src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalorg.ajax4jsf.javascript.PrototypeScript\"
+        type=\"text/javascript\"></script><script src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalscripts/scriptaculous/effects.js\"
+        type=\"text/javascript\"></script><script src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/script/processEffect.js\"
+        type=\"text/javascript\"></script><link class=\"component\" href=\"/EnemSolicitacao/a4j/s/3_3_3.Finalcss/table.xcss/DATB/eAGbUnaFO3T5DGkAEaUDmQ__\"
+        rel=\"stylesheet\" type=\"text/css\" /><script src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalorg.ajax4jsf.javascript.AjaxScript\"
+        type=\"text/javascript\"></script><script src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/datascroller.js\"
+        type=\"text/javascript\"></script><link class=\"component\" href=\"/EnemSolicitacao/a4j/s/3_3_3.Finalcss/datascroller.xcss/DATB/eAGbUnaFO3T5DGkAEaUDmQ__\"
+        rel=\"stylesheet\" type=\"text/css\" /><script type=\"text/javascript\">window.RICH_FACES_EXTENDED_SKINNING_ON=true;</script><script
+        src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/skinning.js\"
+        type=\"text/javascript\"></script><link class=\"user\" href=\"/EnemSolicitacao/a4j/g/3_3_3.Finalform/form.css\"
+        rel=\"stylesheet\" type=\"text/css\" /><script src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalform/form.js\"
+        type=\"text/javascript\"></script><link rel=\"shortcut icon\" href=\"favicon.ico\"
+        type=\"image/x-icon\" />\n\t<link rel=\"stylesheet\" media=\"screen\" href=\"http://public.inep.gov.br/MECdefault/css/screen.css\"
+        />\n\t<link rel=\"stylesheet\" media=\"print\" href=\"http://public.inep.gov.br/MECdefault/css/print.css\"
+        />\n\t\n    \n    <script>\n\t\t//<![CDATA[\n\t\t\tvar loadPrototype\t= (!(typeof
+        Prototype=='undefined')) ? ((!Prototype.Version)|| false) : false;\n\t\t\tif(loadPrototype){\n\t\t\t\t//document.write('<script
+        type=\"text/javascript\" src=\"http://public.inep.gov.br/MECdefault/js/lib/prototype/prototype.js\"><\\/script>');\n\t\t\t}\n\t\t\t\n\t\t\tvar
+        loadFormulario\t= (typeof Formulario=='undefined') || false;\n\t\t\tif(loadFormulario){\n\t\t\t\t//document.write('<script
+        type=\"text/javascript\" src=\"http://public.inep.gov.br/MECdefault/js/class/component/Formulario.js\"><\\/script>');\n\t\t\t}\n\t\t//]]>\n\t</script>\n\t<script
+        src=\"http://public.inep.gov.br/MECdefault/js/lib/scriptaculous/scriptaculous.js?load=effects\"></script>\n\t\n\t<script
+        src=\"http://public.inep.gov.br/MECdefault/js/class/InepMain.js\"></script>\n\t<style
+        type=\"text/css\">\n\t\t.AcessibilidadeBotoes {\n\t\t\twidth: 300px; \n\t\t\theight:
+        22px;\n\t\t\ttext-align: right;\n\t\t\tmargin-left: auto; \n\t\t\tpadding:
+        5px;\n\t\t}\n\n\t\t#FonteNormal {\n\t\t\tcolor: white;\n\t\t\ttext-decoration:
+        none;\n\t\t}\n\t\t\n\t\t#AumentarFonte {\n\t\t\tcolor: white;\n\t\t\ttext-decoration:
+        none;\n\t\t}\n\t\t\n\t\t#DiminuirFonte {\n\t\t\tcolor: white;\n\t\t\ttext-decoration:
+        none;\n\t\t}\n\t</style>\n\t\t<link href=\"/EnemSolicitacao/stylesheet/site.css\"
+        rel=\"stylesheet\" type=\"text/css\" />\n\t\t<script language=\"JavaScript\">\n\t
+        \   \tjavascript:window.history.forward(1);\t\n\t    </script>\n\t    <script
+        language=\"javascript\" type=\"text/javascript\">\n\t\tsomenteNumeros = function(e)
+        {\n\t\t\tvar tecla = (window.event) ? event.keyCode : e.which;\n\t       \tif
+        (tecla > 47 && tecla < 58) {\n\t\t\t\treturn true;\n\t\t\t}\n\t\t\tif (tecla
+        == 8 || tecla == 0) {\n\t\t\t\treturn true;\n\t\t\t}\n\t\t\treturn false;\n\t\t}\n\t</script>\n</head>\n\n<body>\n<div
+        id=\"barra-brasil\">\n   <a href=\"http://brasil.gov.br\" style=\"background:#7F7F7F;
+        height: 20px; padding:4px 0 4px 10px; display: block; font-family:sans,sans-serif;
+        text-decoration:none; color:white; \">Portal do Governo Brasileiro</a>\n</div>\n\n\n<div
+        id=\"Wrapper\">\n\t\n\t<div id=\"Header\">\n\t\t<div id=\"LogoRepublica\">\n\t\t<img
+        src=\"http://public.inep.gov.br/MECdefault/files/images/logos/republica.jpg\"
+        class=\"OnlyPrint\" />\n\t\t</div>\n\t\t\n\t\t<div class=\"INEP\">\n\t\t\t<div
+        id=\"LinkINEP\" class=\"NoPrint\"></div>\n\t\t\t<h2 class=\"OnlyPrint\"><a
+        href=\"http://www.inep.gov.br/\">Instituto Nacional de Estudos e <br /> Pesquisas
+        Educacionais An&iacute;sio Teixeira</a></h2>\n\t\t\t<div class=\"AcessibilidadeBotoes\">\n
+        \             <a href=\"javascript:controlFontSize('0', 180, 60); void(0);\"
+        id=\"FonteNormal\">\n                <img width=\"15\" height=\"15\" alt=\"Fonte
+        normal\" src=\"http://public.inep.gov.br/MECdefault/files/images/a_normal.png\"
+        />\n              </a>\n              <a href=\"javascript:controlFontSize('+',
+        180, 60); void(0);\" id=\"AumentarFonte\">\n                <img width=\"15\"
+        height=\"15\" alt=\"Aumentar fonte\" src=\"http://public.inep.gov.br/MECdefault/files/images/a_mais.png\"
+        />\n              </a>\n              <a href=\"javascript:controlFontSize('-',
+        180, 60); void(0);\" id=\"DiminuirFonte\">\n                <img width=\"15\"
+        height=\"15\" alt=\"Diminuir fonte.\" src=\"http://public.inep.gov.br/MECdefault/files/images/a_menos.png\"
+        />\n              </a>\n            </div>\n\t\t</div>\n\t\t<div class=\"Topo\">\n\t\t\t<div
+        class=\"Ilustracao\"></div>\n\t\t\t\n\t\t</div>\n\t</div>\n\t\n\t<br class=\"Clear\"
+        />\n\t\n\t<div id=\"LeftMenu\" class=\"NoPrint\">\n<form id=\"menuForm\" name=\"menuForm\"
+        method=\"post\" action=\"/EnemSolicitacao/solicitacao/acompanharSolicitacao.seam\"
+        enctype=\"application/x-www-form-urlencoded\">\n<input type=\"hidden\" name=\"menuForm\"
+        value=\"menuForm\" />\n\n\t\t<ul>\n\t\t\t<li></li>\n\t\t</ul>\n\t\t<ul>\n\t\t\t<li>\n<script
+        type=\"text/javascript\" language=\"Javascript\">function dpf(f) {var adp
+        = f.adp;if (adp != null) {for (var i = 0;i < adp.length;i++) {f.removeChild(adp[i]);}}};function
+        apf(f, pvp) {var adp = new Array();f.adp = adp;var i = 0;for (k in pvp) {var
+        p = document.createElement(\"input\");p.type = \"hidden\";p.name = k;p.value
+        = pvp[k];f.appendChild(p);adp[i++] = p;}};function jsfcljs(f, pvp, t) {apf(f,
+        pvp);var ft = f.target;if (t) {f.target = t;}f.submit();f.target = ft;dpf(f);};</script>\n<a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id11':'j_id11'},'');}return
+        false\">Administrar respons&aacute;vel</a></li>\n\t\t\t\t\t<li><label>\nSolicitar
+        resultado 2014</label>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"#\"
+        onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id40':'j_id40'},'');}return
+        false\">Por arquivo (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id42':'j_id42'},'');}return
+        false\">Pela internet (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id44':'j_id44'},'');}return
+        false\">Por arquivo (Cpf)</a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\" onclick=\"if(typeof
+        jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id46':'j_id46'},'');}return
+        false\">Pela internet (Cpf)</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li><label>\nSolicitar
+        resultado 2013</label>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"#\"
+        onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id50':'j_id50'},'');}return
+        false\">Por arquivo (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id52':'j_id52'},'');}return
+        false\">Pela internet (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id54':'j_id54'},'');}return
+        false\">Por arquivo (Cpf)</a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\" onclick=\"if(typeof
+        jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id56':'j_id56'},'');}return
+        false\">Pela internet (Cpf)</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li><label>\nSolicitar
+        resultado 2012</label>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"#\"
+        onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id60':'j_id60'},'');}return
+        false\">Por arquivo (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id62':'j_id62'},'');}return
+        false\">Pela internet (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id64':'j_id64'},'');}return
+        false\">Por arquivo (Cpf)</a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\" onclick=\"if(typeof
+        jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id66':'j_id66'},'');}return
+        false\">Pela internet (Cpf)</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li><label>\nSolicitar
+        resultado 2011</label>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"#\"
+        onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id70':'j_id70'},'');}return
+        false\">Por arquivo (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id72':'j_id72'},'');}return
+        false\">Pela internet (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id74':'j_id74'},'');}return
+        false\">Por arquivo (Cpf)</a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\" onclick=\"if(typeof
+        jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id76':'j_id76'},'');}return
+        false\">Pela internet (Cpf)</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li><label>\nSolicitar
+        resultado 2010</label>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"#\"
+        onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id80':'j_id80'},'');}return
+        false\">Por arquivo (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id82':'j_id82'},'');}return
+        false\">Pela internet (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id84':'j_id84'},'');}return
+        false\">Por arquivo (Cpf)</a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\" onclick=\"if(typeof
+        jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id86':'j_id86'},'');}return
+        false\">Pela internet (Cpf)</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li><label>\nSolicitar
+        resultado 2009</label>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"#\"
+        onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id90':'j_id90'},'');}return
+        false\">Por arquivo (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id92':'j_id92'},'');}return
+        false\">Pela internet (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id94':'j_id94'},'');}return
+        false\">Por arquivo (Cpf)</a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\" onclick=\"if(typeof
+        jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id96':'j_id96'},'');}return
+        false\">Pela internet (Cpf)</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li><label>\nSolicitar
+        resultado anos anteriores</label>\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id100':'j_id100'},'');}return
+        false\">Por arquivo (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id102':'j_id102'},'');}return
+        false\">Pela internet (inscri&ccedil;&atilde;o)</a></li>\n\t\t\t\t\t\t\t<hr
+        />\n\t\t\t\t\t\t\t<li><a href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id104':'j_id104'},'');}return
+        false\">Acompanhar solicita&ccedil;&atilde;o</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</li>\n\t\t</ul>\n\t\t<ul>\n\t\t\t<li><a
+        href=\"#\" onclick=\"if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('menuForm'),{'j_id108':'j_id108'},'');}return
+        false\">Sair</a></li>\n\t\t</ul><input type=\"hidden\" name=\"javax.faces.ViewState\"
+        id=\"javax.faces.ViewState\" value=\"j_id6\" />\n</form>\n\t</div>\n\t<div
+        id=\"ContentHolder\">\n\t\n\t\n\t<h4>Acompanhar solicita&ccedil;&atilde;o
+        <hr /></h4>\n\t\n\t<h2><strong>Descri&ccedil;&atilde;o do arquivo de retorno
+        referente ao resultado do ENEM at&eacute; 2012, clique <a style=\"color:red;\"
+        target=\"_blanck\" href=\"http://download.inep.gov.br/educacao_basica/enem/downloads/2012/Arquivo_de_Retorno_Enem.pdf\">aqui</a></strong><hr
+        /></h2>\n\t<br />\n\t<h2><strong>Descri&ccedil;&atilde;o do arquivo de retorno
+        referente ao resultado do ENEM 2013, clique <a style=\"color:red;\" target=\"_blanck\"
+        href=\"http://download.inep.gov.br/educacao_basica/enem/downloads/2013/Arquivo_de_Retorno_Enem.pdf\">aqui</a></strong><hr
+        /></h2>\n\t<br />\n\t<h2><strong>Descri&ccedil;&atilde;o do arquivo de retorno
+        referente ao resultado do ENEM 2014, clique <a style=\"color:red;\" target=\"_blanck\"
+        href=\"http://download.inep.gov.br/educacao_basica/enem/downloads/2014/Arquivo_de_Retorno_Enem.pdf\">aqui</a></strong><hr
+        /></h2>\n\t<br />\n\t<br />\n<form id=\"listaSolicitacaoForm\" name=\"listaSolicitacaoForm\"
+        method=\"post\" action=\"/EnemSolicitacao/solicitacao/acompanharSolicitacao.seam\"
+        enctype=\"\">\n<input type=\"hidden\" name=\"listaSolicitacaoForm\" value=\"listaSolicitacaoForm\"
+        />\n\n\t\t<script>\n\t\t\tvar listaSolicitacaoForm = new Formulario();\n\t\t\tEvent.observe($('listaSolicitacaoForm'),'submit',function(){\n\t\t\t\tvar
+        form\t= listaSolicitacaoForm;\n\t\t\t\tsetTimeout(function(){\n\t\t\t\t\tform.error\t=
+        new Array();\n\t\t\t\t},10);\n\t\t\t});\n\t\t</script><div id=\"listaSolicitacaoFormMessages\"
+        class=\"Error\"><div class=\"rich-panel message\" id=\"j_id116\" onclick=\"Richfaces.processEffect(Object.extend({targetId:this},{type:'DropOut',duration:0.8}));\"
+        style=\"padding:0\"><div class=\"rich-panel-body \" id=\"j_id116_body\"><ul><li
+        style=\"padding-left:70px\" class=\"infomsg\">\tNenhum aluno encontrado! </li></ul></div></div></div>\n\t
+        \     <h6>Solicita&ccedil;&otilde;es n&atilde;o atendidas:</h6><div id=\"j_id121\">
+        \n\t\n\t  <div class=\"ClientDataTable\"><span id=\"j_id123\">\n\t            <br
+        /><img alt=\"\" class=\"rich-spacer \" height=\"10\" id=\"j_id127\" src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalimages/spacer.gif\"
+        width=\"1\" /><table class=\"rich-table tabela\" id=\"listaSolicitacaoNaoAtendidas\"
+        border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><colgroup span=\"5\"></colgroup><thead
+        class=\"rich-table-thead\"><tr class=\"rich-table-subheader \"><th class=\"rich-table-subheadercell
+        \ \" scope=\"col\" colspan=\"1\" id=\"listaSolicitacaoNaoAtendidas:j_id128header\"><div
+        id=\"listaSolicitacaoNaoAtendidas:j_id128header:sortDiv\">N&ordm; Solicita&ccedil;&atilde;o</div></th><th
+        class=\"rich-table-subheadercell  \" scope=\"col\" colspan=\"1\" id=\"listaSolicitacaoNaoAtendidas:j_id135header\"><div
+        id=\"listaSolicitacaoNaoAtendidas:j_id135header:sortDiv\">Processo de solicita&ccedil;&atilde;o</div></th><th
+        class=\"rich-table-subheadercell  \" scope=\"col\" colspan=\"1\" id=\"listaSolicitacaoNaoAtendidas:j_id145header\"><div
+        id=\"listaSolicitacaoNaoAtendidas:j_id145header:sortDiv\">Dt. da solicita&ccedil;&atilde;o</div></th><th
+        class=\"rich-table-subheadercell  \" scope=\"col\" colspan=\"1\" id=\"listaSolicitacaoNaoAtendidas:j_id152header\"><div
+        id=\"listaSolicitacaoNaoAtendidas:j_id152header:sortDiv\">Dt. do processamento</div></th><th
+        class=\"rich-table-subheadercell  \" scope=\"col\" colspan=\"1\" id=\"listaSolicitacaoNaoAtendidas:j_id159header\"><div
+        id=\"listaSolicitacaoNaoAtendidas:j_id159header:sortDiv\">Situa&ccedil;&atilde;o</div></th></tr></thead><tbody
+        id=\"listaSolicitacaoNaoAtendidas:tb\"><tr class=\"rich-table-row rich-table-firstrow
+        \" onmouseover=\"this.style.backgroundColor='#F1F1F1'\" onmouseout=\"this.style.backgroundColor='#FFFFFF'\"><td
+        class=\"rich-table-cell \" id=\"listaSolicitacaoNaoAtendidas:0:j_id128\" colspan=\"1\"
+        rowspan=\"1\">\n\t        \t<div align=\"center\">348141\n\t        \t</div></td><td
+        class=\"rich-table-cell \" id=\"listaSolicitacaoNaoAtendidas:0:j_id135\" colspan=\"1\"
+        rowspan=\"1\">\n\t\t        <div align=\"center\">Via arquivo: 'enem.html'\n\t\t
+        \        </div></td><td class=\"rich-table-cell \" id=\"listaSolicitacaoNaoAtendidas:0:j_id145\"
+        colspan=\"1\" rowspan=\"1\">\n\t        \t<div align=\"center\">26/01/2015
+        14:26:10\n\t        \t</div></td><td class=\"rich-table-cell \" id=\"listaSolicitacaoNaoAtendidas:0:j_id152\"
+        colspan=\"1\" rowspan=\"1\">\n\t        \t<div align=\"center\">26/01/2015
+        14:26:10\n\t        \t</div></td><td class=\"rich-table-cell \" id=\"listaSolicitacaoNaoAtendidas:0:j_id159\"
+        colspan=\"1\" rowspan=\"1\">\n\t\t        <div align=\"center\">Devolvido\n\t\t
+        \       </div></td></tr><tr class=\"rich-table-row \" onmouseover=\"this.style.backgroundColor='#F1F1F1'\"
+        onmouseout=\"this.style.backgroundColor='#FFFFFF'\"><td class=\"rich-table-cell
+        \" id=\"listaSolicitacaoNaoAtendidas:1:j_id128\" colspan=\"1\" rowspan=\"1\">\n\t
+        \       \t<div align=\"center\">348140\n\t        \t</div></td><td class=\"rich-table-cell
+        \" id=\"listaSolicitacaoNaoAtendidas:1:j_id135\" colspan=\"1\" rowspan=\"1\">\n\t\t
+        \       <div align=\"center\">Via arquivo: 'enem.html'\n\t\t         </div></td><td
+        class=\"rich-table-cell \" id=\"listaSolicitacaoNaoAtendidas:1:j_id145\" colspan=\"1\"
+        rowspan=\"1\">\n\t        \t<div align=\"center\">26/01/2015 14:26:10\n\t
+        \       \t</div></td><td class=\"rich-table-cell \" id=\"listaSolicitacaoNaoAtendidas:1:j_id152\"
+        colspan=\"1\" rowspan=\"1\">\n\t        \t<div align=\"center\">26/01/2015
+        14:26:10\n\t        \t</div></td><td class=\"rich-table-cell \" id=\"listaSolicitacaoNaoAtendidas:1:j_id159\"
+        colspan=\"1\" rowspan=\"1\">\n\t\t        <div align=\"center\">Devolvido\n\t\t
+        \       </div></td></tr><tr class=\"rich-table-row \" onmouseover=\"this.style.backgroundColor='#F1F1F1'\"
+        onmouseout=\"this.style.backgroundColor='#FFFFFF'\"><td class=\"rich-table-cell
+        \" id=\"listaSolicitacaoNaoAtendidas:2:j_id128\" colspan=\"1\" rowspan=\"1\">\n\t
+        \       \t<div align=\"center\">347637\n\t        \t</div></td><td class=\"rich-table-cell
+        \" id=\"listaSolicitacaoNaoAtendidas:2:j_id135\" colspan=\"1\" rowspan=\"1\">\n\t\t
+        \       <div align=\"center\">Via arquivo: 'enem.html'\n\t\t         </div></td><td
+        class=\"rich-table-cell \" id=\"listaSolicitacaoNaoAtendidas:2:j_id145\" colspan=\"1\"
+        rowspan=\"1\">\n\t        \t<div align=\"center\">26/01/2015 14:01:50\n\t
+        \       \t</div></td><td class=\"rich-table-cell \" id=\"listaSolicitacaoNaoAtendidas:2:j_id152\"
+        colspan=\"1\" rowspan=\"1\">\n\t        \t<div align=\"center\">26/01/2015
+        14:01:50\n\t        \t</div></td><td class=\"rich-table-cell \" id=\"listaSolicitacaoNaoAtendidas:2:j_id159\"
+        colspan=\"1\" rowspan=\"1\">\n\t\t        <div align=\"center\">Devolvido\n\t\t
+        \       </div></td></tr><tr class=\"rich-table-row \" onmouseover=\"this.style.backgroundColor='#F1F1F1'\"
+        onmouseout=\"this.style.backgroundColor='#FFFFFF'\"><td class=\"rich-table-cell
+        \" id=\"listaSolicitacaoNaoAtendidas:3:j_id128\" colspan=\"1\" rowspan=\"1\">\n\t
+        \       \t<div align=\"center\">347592\n\t        \t</div></td><td class=\"rich-table-cell
+        \" id=\"listaSolicitacaoNaoAtendidas:3:j_id135\" colspan=\"1\" rowspan=\"1\">\n\t\t
+        \       <div align=\"center\">Via arquivo: 'enem.html'\n\t\t         </div></td><td
+        class=\"rich-table-cell \" id=\"listaSolicitacaoNaoAtendidas:3:j_id145\" colspan=\"1\"
+        rowspan=\"1\">\n\t        \t<div align=\"center\">26/01/2015 13:40:46\n\t
+        \       \t</div></td><td class=\"rich-table-cell \" id=\"listaSolicitacaoNaoAtendidas:3:j_id152\"
+        colspan=\"1\" rowspan=\"1\">\n\t        \t<div align=\"center\">26/01/2015
+        13:40:46\n\t        \t</div></td><td class=\"rich-table-cell \" id=\"listaSolicitacaoNaoAtendidas:3:j_id159\"
+        colspan=\"1\" rowspan=\"1\">\n\t\t        <div align=\"center\">Devolvido\n\t\t
+        \       </div></td></tr><tr class=\"rich-table-row \" onmouseover=\"this.style.backgroundColor='#F1F1F1'\"
+        onmouseout=\"this.style.backgroundColor='#FFFFFF'\"><td class=\"rich-table-cell
+        \" id=\"listaSolicitacaoNaoAtendidas:4:j_id128\" colspan=\"1\" rowspan=\"1\">\n\t
+        \       \t<div align=\"center\">347527\n\t        \t</div></td><td class=\"rich-table-cell
+        \" id=\"listaSolicitacaoNaoAtendidas:4:j_id135\" colspan=\"1\" rowspan=\"1\">\n\t\t
+        \       <div align=\"center\">Via arquivo: 'enem.html'\n\t\t         </div></td><td
+        class=\"rich-table-cell \" id=\"listaSolicitacaoNaoAtendidas:4:j_id145\" colspan=\"1\"
+        rowspan=\"1\">\n\t        \t<div align=\"center\">26/01/2015 13:40:46\n\t
+        \       \t</div></td><td class=\"rich-table-cell \" id=\"listaSolicitacaoNaoAtendidas:4:j_id152\"
+        colspan=\"1\" rowspan=\"1\">\n\t        \t<div align=\"center\">26/01/2015
+        13:40:46\n\t        \t</div></td><td class=\"rich-table-cell \" id=\"listaSolicitacaoNaoAtendidas:4:j_id159\"
+        colspan=\"1\" rowspan=\"1\">\n\t\t        <div align=\"center\">Devolvido\n\t\t
+        \       </div></td></tr></tbody></table> \n\t\t\t\t\t<br class=\"Clear\" /><div
+        class=\"rich-datascr \" id=\"listaSolicitacaoNaoAtendidasDataScroller\" style=\"
+        \" align=\"left\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"1\"
+        class=\"rich-dtascroller-table \" id=\"listaSolicitacaoNaoAtendidasDataScroller_table\"
+        style=\"text-align:left\"><tbody><tr><td class=\"rich-datascr-button-dsbld
+        rich-datascr-button\">&#171;&#171;</td><td class=\"rich-datascr-button-dsbld
+        rich-datascr-button\">&#171;</td><td class=\"rich-datascr-button-dsbld rich-datascr-button\"></td><td
+        class=\"rich-datascr-act \">1</td><td class=\"rich-datascr-inact \" onclick=\"Event.fire(this,
+        'rich:datascroller:onscroll', {'page': '2'});\">2</td><td class=\"rich-datascr-inact
+        \" onclick=\"Event.fire(this, 'rich:datascroller:onscroll', {'page': '3'});\">3</td><td
+        class=\"rich-datascr-inact \" onclick=\"Event.fire(this, 'rich:datascroller:onscroll',
+        {'page': '4'});\">4</td><td class=\" rich-datascr-button\" onclick=\"Event.fire(this,
+        'rich:datascroller:onscroll', {'page': 'next'});\"></td><td class=\" rich-datascr-button\"
+        onclick=\"Event.fire(this, 'rich:datascroller:onscroll', {'page': 'fastforward'});\">&#187;</td><td
+        class=\" rich-datascr-button\" onclick=\"Event.fire(this, 'rich:datascroller:onscroll',
+        {'page': 'last'});\">&#187;&#187;</td></tr></tbody></table><script type=\"text/javascript\">new
+        Richfaces.Datascroller('listaSolicitacaoNaoAtendidasDataScroller', function(event){A4J.AJAX.Submit('listaSolicitacaoForm',event,{'ignoreDupResponses':true,'implicitEventsQueue':'listaSolicitacaoNaoAtendidasDataScroller','similarityGroupingId':'listaSolicitacaoNaoAtendidasDataScroller','parameters':{'listaSolicitacaoNaoAtendidasDataScroller':event.memo.page,'ajaxSingle':'listaSolicitacaoNaoAtendidasDataScroller'}
+        } ); return false;});</script></div>\n\t                <br class=\"Clear\"
+        /></span>\n\t\t<br class=\"Clear\" />\n\t</div></div><img alt=\"\" class=\"rich-spacer
+        \" height=\"20\" id=\"j_id172\" src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalimages/spacer.gif\"
+        width=\"1\" />    \t\n      <h6>Solicita&ccedil;&otilde;es atendidas:</h6><div
+        id=\"j_id174\"> \n\t\n\t  <div class=\"ClientDataTable\"><span id=\"j_id176\">\n\t
+        \           <br /><img alt=\"\" class=\"rich-spacer \" height=\"10\" id=\"j_id180\"
+        src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalimages/spacer.gif\" width=\"1\" /><table
+        class=\"rich-table tabela\" id=\"listaSolicitacaoAtendidas\" border=\"0\"
+        cellpadding=\"0\" cellspacing=\"0\"><colgroup span=\"5\"></colgroup><thead
+        class=\"rich-table-thead\"><tr class=\"rich-table-subheader \"><th class=\"rich-table-subheadercell
+        \ \" scope=\"col\" colspan=\"1\" id=\"listaSolicitacaoAtendidas:j_id181header\"><div
+        id=\"listaSolicitacaoAtendidas:j_id181header:sortDiv\">N&ordm; Solicita&ccedil;&atilde;o</div></th><th
+        class=\"rich-table-subheadercell  \" scope=\"col\" colspan=\"1\" id=\"listaSolicitacaoAtendidas:j_id188header\"><div
+        id=\"listaSolicitacaoAtendidas:j_id188header:sortDiv\">Processo de solicita&ccedil;&atilde;o</div></th><th
+        class=\"rich-table-subheadercell  \" scope=\"col\" colspan=\"1\" id=\"listaSolicitacaoAtendidas:j_id198header\"><div
+        id=\"listaSolicitacaoAtendidas:j_id198header:sortDiv\">Dt. da solicita&ccedil;&atilde;o</div></th><th
+        class=\"rich-table-subheadercell  \" scope=\"col\" colspan=\"1\" id=\"listaSolicitacaoAtendidas:j_id205header\"><div
+        id=\"listaSolicitacaoAtendidas:j_id205header:sortDiv\">Dt. do processamento</div></th><th
+        class=\"rich-table-subheadercell  \" scope=\"col\" colspan=\"1\" id=\"listaSolicitacaoAtendidas:j_id212header\"><div
+        id=\"listaSolicitacaoAtendidas:j_id212header:sortDiv\">Situa&ccedil;&atilde;o</div></th></tr></thead><tbody
+        id=\"listaSolicitacaoAtendidas:tb\"><tr class=\"rich-table-row rich-table-firstrow
+        \" onmouseover=\"this.style.backgroundColor='#F1F1F1'\" onmouseout=\"this.style.backgroundColor='#FFFFFF'\"><td
+        class=\"rich-table-cell \" id=\"listaSolicitacaoAtendidas:0:j_id181\" colspan=\"1\"
+        rowspan=\"1\">\n        \t<div align=\"center\">348761\n        \t</div></td><td
+        class=\"rich-table-cell \" id=\"listaSolicitacaoAtendidas:0:j_id188\" colspan=\"1\"
+        rowspan=\"1\">\n        \t<div align=\"center\">Via internet\n\t\t    </div></td><td
+        class=\"rich-table-cell \" id=\"listaSolicitacaoAtendidas:0:j_id198\" colspan=\"1\"
+        rowspan=\"1\">\n        \t<div align=\"center\">26/01/2015 15:37:33\n        \t</div></td><td
+        class=\"rich-table-cell \" id=\"listaSolicitacaoAtendidas:0:j_id205\" colspan=\"1\"
+        rowspan=\"1\">\n        \t<div align=\"center\">26/01/2015 15:37:33\n        \t</div></td><td
+        class=\"rich-table-cell \" id=\"listaSolicitacaoAtendidas:0:j_id212\" colspan=\"1\"
+        rowspan=\"1\"><div id=\"listaSolicitacaoAtendidas:0:j_id217\">Fechado<img
+        alt=\"\" class=\"rich-spacer \" height=\"1\" id=\"listaSolicitacaoAtendidas:0:j_id219\"
+        src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalimages/spacer.gif\" width=\"10\" />\n
+        \            \t<a href=\"/EnemSolicitacao/solicitacao/download/20080523227184/348761.txt\"
+        target=\"_blank\">Download</a></div></td></tr><tr class=\"rich-table-row \"
+        onmouseover=\"this.style.backgroundColor='#F1F1F1'\" onmouseout=\"this.style.backgroundColor='#FFFFFF'\"><td
+        class=\"rich-table-cell \" id=\"listaSolicitacaoAtendidas:1:j_id181\" colspan=\"1\"
+        rowspan=\"1\">\n        \t<div align=\"center\">348760\n        \t</div></td><td
+        class=\"rich-table-cell \" id=\"listaSolicitacaoAtendidas:1:j_id188\" colspan=\"1\"
+        rowspan=\"1\">\n        \t<div align=\"center\">Via internet\n\t\t    </div></td><td
+        class=\"rich-table-cell \" id=\"listaSolicitacaoAtendidas:1:j_id198\" colspan=\"1\"
+        rowspan=\"1\">\n        \t<div align=\"center\">26/01/2015 15:37:05\n        \t</div></td><td
+        class=\"rich-table-cell \" id=\"listaSolicitacaoAtendidas:1:j_id205\" colspan=\"1\"
+        rowspan=\"1\">\n        \t<div align=\"center\">26/01/2015 15:37:05\n        \t</div></td><td
+        class=\"rich-table-cell \" id=\"listaSolicitacaoAtendidas:1:j_id212\" colspan=\"1\"
+        rowspan=\"1\"><div id=\"listaSolicitacaoAtendidas:1:j_id217\">Fechado<img
+        alt=\"\" class=\"rich-spacer \" height=\"1\" id=\"listaSolicitacaoAtendidas:1:j_id219\"
+        src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalimages/spacer.gif\" width=\"10\" />\n
+        \            \t<a href=\"/EnemSolicitacao/solicitacao/download/20080523227184/348760.txt\"
+        target=\"_blank\">Download</a></div></td></tr><tr class=\"rich-table-row \"
+        onmouseover=\"this.style.backgroundColor='#F1F1F1'\" onmouseout=\"this.style.backgroundColor='#FFFFFF'\"><td
+        class=\"rich-table-cell \" id=\"listaSolicitacaoAtendidas:2:j_id181\" colspan=\"1\"
+        rowspan=\"1\">\n        \t<div align=\"center\">348747\n        \t</div></td><td
+        class=\"rich-table-cell \" id=\"listaSolicitacaoAtendidas:2:j_id188\" colspan=\"1\"
+        rowspan=\"1\">\n        \t<div align=\"center\">Via internet\n\t\t    </div></td><td
+        class=\"rich-table-cell \" id=\"listaSolicitacaoAtendidas:2:j_id198\" colspan=\"1\"
+        rowspan=\"1\">\n        \t<div align=\"center\">26/01/2015 15:36:24\n        \t</div></td><td
+        class=\"rich-table-cell \" id=\"listaSolicitacaoAtendidas:2:j_id205\" colspan=\"1\"
+        rowspan=\"1\">\n        \t<div align=\"center\">26/01/2015 15:36:24\n        \t</div></td><td
+        class=\"rich-table-cell \" id=\"listaSolicitacaoAtendidas:2:j_id212\" colspan=\"1\"
+        rowspan=\"1\"><div id=\"listaSolicitacaoAtendidas:2:j_id217\">Fechado<img
+        alt=\"\" class=\"rich-spacer \" height=\"1\" id=\"listaSolicitacaoAtendidas:2:j_id219\"
+        src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalimages/spacer.gif\" width=\"10\" />\n
+        \            \t<a href=\"/EnemSolicitacao/solicitacao/download/20080523227184/348747.txt\"
+        target=\"_blank\">Download</a></div></td></tr><tr class=\"rich-table-row \"
+        onmouseover=\"this.style.backgroundColor='#F1F1F1'\" onmouseout=\"this.style.backgroundColor='#FFFFFF'\"><td
+        class=\"rich-table-cell \" id=\"listaSolicitacaoAtendidas:3:j_id181\" colspan=\"1\"
+        rowspan=\"1\">\n        \t<div align=\"center\">348746\n        \t</div></td><td
+        class=\"rich-table-cell \" id=\"listaSolicitacaoAtendidas:3:j_id188\" colspan=\"1\"
+        rowspan=\"1\">\n        \t<div align=\"center\">Via internet\n\t\t    </div></td><td
+        class=\"rich-table-cell \" id=\"listaSolicitacaoAtendidas:3:j_id198\" colspan=\"1\"
+        rowspan=\"1\">\n        \t<div align=\"center\">26/01/2015 15:35:12\n        \t</div></td><td
+        class=\"rich-table-cell \" id=\"listaSolicitacaoAtendidas:3:j_id205\" colspan=\"1\"
+        rowspan=\"1\">\n        \t<div align=\"center\">26/01/2015 15:35:12\n        \t</div></td><td
+        class=\"rich-table-cell \" id=\"listaSolicitacaoAtendidas:3:j_id212\" colspan=\"1\"
+        rowspan=\"1\"><div id=\"listaSolicitacaoAtendidas:3:j_id217\">Fechado<img
+        alt=\"\" class=\"rich-spacer \" height=\"1\" id=\"listaSolicitacaoAtendidas:3:j_id219\"
+        src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalimages/spacer.gif\" width=\"10\" />\n
+        \            \t<a href=\"/EnemSolicitacao/solicitacao/download/20080523227184/348746.txt\"
+        target=\"_blank\">Download</a></div></td></tr><tr class=\"rich-table-row \"
+        onmouseover=\"this.style.backgroundColor='#F1F1F1'\" onmouseout=\"this.style.backgroundColor='#FFFFFF'\"><td
+        class=\"rich-table-cell \" id=\"listaSolicitacaoAtendidas:4:j_id181\" colspan=\"1\"
+        rowspan=\"1\">\n        \t<div align=\"center\">348740\n        \t</div></td><td
+        class=\"rich-table-cell \" id=\"listaSolicitacaoAtendidas:4:j_id188\" colspan=\"1\"
+        rowspan=\"1\">\n        \t<div align=\"center\">Via internet\n\t\t    </div></td><td
+        class=\"rich-table-cell \" id=\"listaSolicitacaoAtendidas:4:j_id198\" colspan=\"1\"
+        rowspan=\"1\">\n        \t<div align=\"center\">26/01/2015 15:23:17\n        \t</div></td><td
+        class=\"rich-table-cell \" id=\"listaSolicitacaoAtendidas:4:j_id205\" colspan=\"1\"
+        rowspan=\"1\">\n        \t<div align=\"center\">26/01/2015 15:23:17\n        \t</div></td><td
+        class=\"rich-table-cell \" id=\"listaSolicitacaoAtendidas:4:j_id212\" colspan=\"1\"
+        rowspan=\"1\"><div id=\"listaSolicitacaoAtendidas:4:j_id217\">Fechado<img
+        alt=\"\" class=\"rich-spacer \" height=\"1\" id=\"listaSolicitacaoAtendidas:4:j_id219\"
+        src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalimages/spacer.gif\" width=\"10\" />\n
+        \            \t<a href=\"/EnemSolicitacao/solicitacao/download/20080523227184/348740.txt\"
+        target=\"_blank\">Download</a></div></td></tr></tbody></table> \n\t\t\t\t\t<br
+        class=\"Clear\" /><div class=\"rich-datascr \" id=\"listaSolicitacaoAtendidasDataScroller\"
+        style=\" \" align=\"left\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"1\"
+        class=\"rich-dtascroller-table \" id=\"listaSolicitacaoAtendidasDataScroller_table\"
+        style=\"text-align:left\"><tbody><tr><td class=\"rich-datascr-button-dsbld
+        rich-datascr-button\">&#171;&#171;</td><td class=\"rich-datascr-button-dsbld
+        rich-datascr-button\">&#171;</td><td class=\"rich-datascr-button-dsbld rich-datascr-button\"></td><td
+        class=\"rich-datascr-act \">1</td><td class=\"rich-datascr-inact \" onclick=\"Event.fire(this,
+        'rich:datascroller:onscroll', {'page': '2'});\">2</td><td class=\"rich-datascr-inact
+        \" onclick=\"Event.fire(this, 'rich:datascroller:onscroll', {'page': '3'});\">3</td><td
+        class=\"rich-datascr-inact \" onclick=\"Event.fire(this, 'rich:datascroller:onscroll',
+        {'page': '4'});\">4</td><td class=\"rich-datascr-inact \" onclick=\"Event.fire(this,
+        'rich:datascroller:onscroll', {'page': '5'});\">5</td><td class=\" rich-datascr-button\"
+        onclick=\"Event.fire(this, 'rich:datascroller:onscroll', {'page': 'next'});\"></td><td
+        class=\" rich-datascr-button\" onclick=\"Event.fire(this, 'rich:datascroller:onscroll',
+        {'page': 'fastforward'});\">&#187;</td><td class=\" rich-datascr-button\"
+        onclick=\"Event.fire(this, 'rich:datascroller:onscroll', {'page': 'last'});\">&#187;&#187;</td></tr></tbody></table><script
+        type=\"text/javascript\">new Richfaces.Datascroller('listaSolicitacaoAtendidasDataScroller',
+        function(event){A4J.AJAX.Submit('listaSolicitacaoForm',event,{'ignoreDupResponses':true,'implicitEventsQueue':'listaSolicitacaoAtendidasDataScroller','similarityGroupingId':'listaSolicitacaoAtendidasDataScroller','parameters':{'ajaxSingle':'listaSolicitacaoAtendidasDataScroller','listaSolicitacaoAtendidasDataScroller':event.memo.page}
+        } ); return false;});</script></div>\n\t                <br class=\"Clear\"
+        /></span>\n\t\t<br class=\"Clear\" />\n\t</div></div><input type=\"hidden\"
+        name=\"javax.faces.ViewState\" id=\"javax.faces.ViewState\" value=\"j_id6\"
+        />\n</form>\n\t</div>\n\t\n\t<br class=\"Clear\" />\n\t\n\t<div id=\"Footer\"
+        class=\"NoPrint\">Copyright MEC - INEP - Instituto Nacional de Estudos e Pesquisas
+        Educacionais An&iacute;sio Teixeira</div>\n</div>\n<script src=\"http://public.inep.gov.br/barra_governo/barra-sistema.js\"
+        type=\"text/javascript\"></script>\n</body>\n</html>"
+    http_version:
+  recorded_at: Mon, 26 Jan 2015 17:37:18 GMT
+- request:
+    method: get
+    uri: http://sistemasenem.inep.gov.br/EnemSolicitacao/solicitacao/download/20080523227184/348761.txt
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.1) Gecko/20100122 firefox/3.6.1
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - BIGipServerEnem_Legado=3456376236.20480.0000; JSESSIONID=A92CADE9A904529FD02DA795AAA81E1B
+      Host:
+      - sistemasenem.inep.gov.br
+      Referer:
+      - !ruby/object:URI::HTTP
+        scheme: http
+        user:
+        password:
+        host: sistemasenem.inep.gov.br
+        port: 80
+        path: "/EnemSolicitacao/solicitacao/acompanharSolicitacao.seam"
+        query:
+        opaque:
+        registry:
+        fragment:
+        parser:
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - 300
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      X-Powered-By:
+      - 'Servlet 2.4; JBoss-4.3.0.GA_CP06 (build: SVNTag=JBPAPP_4_3_0_GA_CP06 date=200907141446)/JBossWeb-2.0'
+      Content-Disposition:
+      - attachment; filename="348761.txt"
+      Expires:
+      - '0'
+      Cache-Control:
+      - must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - public
+      Content-Type:
+      - application/txt
+      Content-Length:
+      - '153'
+      Date:
+      - Mon, 26 Jan 2015 17:37:35 GMT
+    body:
+      encoding: UTF-8
+      string: |+
+        123456789012;11111111111;AAAAAAAAA BBBBBBBBB CCCCCCCCC;610.9;639.5;596.4;580.4;700.0;7;7;7;7;7;01/01/1990;M;2222222;SSP;SC;PR;FOZ DO IGUACU;N;Espanhol;
+
+    http_version:
+  recorded_at: Mon, 26 Jan 2015 17:37:19 GMT
+recorded_with: VCR 2.9.2

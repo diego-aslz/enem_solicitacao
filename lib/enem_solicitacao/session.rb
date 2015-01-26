@@ -19,7 +19,7 @@ module EnemSolicitacao
     private
 
     def login_url
-      'http://sistemasenem.inep.gov.br/EnemSolicitacao/login.seam'
+      EnemSolicitacao.path '/login.seam'
     end
 
     def establish(login = @login, password = @password)
