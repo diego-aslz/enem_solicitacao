@@ -24,7 +24,7 @@ module EnemSolicitacao
   end
 
   def self.user
-    @user ||= ENV['VALID_LOGIN']
+    @user ||= ENV['ENEM_LOGIN']
   end
 
   def self.password=(password)
@@ -32,7 +32,7 @@ module EnemSolicitacao
   end
 
   def self.password
-    @password ||= ENV['VALID_PASSWORD']
+    @password ||= ENV['ENEM_PASSWORD']
   end
 
   def self.session

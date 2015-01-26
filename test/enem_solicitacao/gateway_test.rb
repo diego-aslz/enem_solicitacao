@@ -1,13 +1,8 @@
 require 'test_helper'
 
 class GatewayTest < Minitest::Unit::TestCase
-  def session
-    @session ||= EnemSolicitacao::Session.new(ENV['VALID_LOGIN'],
-                                              ENV['VALID_PASSWORD'])
-  end
-
   def gateway
-    @gateway ||= EnemSolicitacao::Gateway.new(session)
+    @gateway ||= EnemSolicitacao.gateway
   end
 
   def test_gets_candidate_info

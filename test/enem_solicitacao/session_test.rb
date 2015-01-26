@@ -1,17 +1,10 @@
 require 'test_helper'
 
 class SessionTest < Minitest::Unit::TestCase
-  def valid_login
-    ENV['VALID_LOGIN']
-  end
-
-  def valid_password
-    ENV['VALID_PASSWORD']
-  end
-
   def test_logs_user_in
     VCR.insert_cassette 'test_logs_user_in'
-    session = EnemSolicitacao::Session.new valid_login, valid_password
+    session = EnemSolicitacao::Session.new  EnemSolicitacao.user,
+                                            EnemSolicitacao.password
 
     refute session.established?
 
