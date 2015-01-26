@@ -1,0 +1,3 @@
+#!/bin/bash
+
+dotenv irb -Ilib -renem_solicitacao

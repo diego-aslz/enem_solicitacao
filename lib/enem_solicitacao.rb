@@ -18,6 +18,30 @@ module EnemSolicitacao
   def self.path(path)
     "#{site}#{path}"
   end
+
+  def self.user=(user)
+    @user = user
+  end
+
+  def self.user
+    @user ||= ENV['VALID_LOGIN']
+  end
+
+  def self.password=(password)
+    @password = password
+  end
+
+  def self.password
+    @password ||= ENV['VALID_PASSWORD']
+  end
+
+  def self.session
+    @session ||= Session.new(user, password)
+  end
+
+  def self.gateway
+    @gateway ||= Gateway.new(session)
+  end
 end
 
 require 'enem_solicitacao/session'
