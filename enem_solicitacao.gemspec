@@ -16,4 +16,7 @@ Gem::Specification.new do |s|
   s.license     = 'MIT'
 
   s.add_dependency 'mechanize'
+  s.add_development_dependency 'vcr'
+  s.add_development_dependency 'webmock'
+  s.add_development_dependency 'dotenv'
 end
