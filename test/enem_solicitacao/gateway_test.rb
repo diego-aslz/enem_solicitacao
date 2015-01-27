@@ -24,4 +24,12 @@ RESPONSE
 
     VCR.eject_cassette
   end
+
+  def test_returns_nil_when_not_found
+    VCR.insert_cassette 'test_returns_nil_when_not_found'
+
+    assert_equal gateway.search_by_cpf('11111111112'), nil
+
+    VCR.eject_cassette
+  end
 end

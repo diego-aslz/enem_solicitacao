@@ -27,17 +27,14 @@ module EnemSolicitacao
     # Busca resultados pelo número de inscrição. Retorna o conteúdo do arquivo
     # gerado pelo sistema do Inep (formato CSV) em texto puro.
     def search_by_registry(*registries)
-      submit_request REGISTRY_KIND,
-                     'numerosInscricaoDecorate:numerosInscricaoInput',
-                     registries.join(';')
-      last_result
+      request REGISTRY_KIND, 'numerosInscricaoDecorate:numerosInscricaoInput',
+              registries.join(';')
     end
 
     # Busca resultados pelo CPF. Retorna o conteúdo do arquivo gerado pelo
     # sistema do Inep (formato CSV) em texto puro.
     def search_by_cpf(*cpfs)
-      submit_request CPF_KIND, 'cpfDecorate:cpfInput', cpfs.join(';')
-      last_result
+      request  CPF_KIND, 'cpfDecorate:cpfInput', cpfs.join(';')
     end
 
     # Carrega e retorna o conteúdo do resultado da última busca efetuada.
@@ -57,7 +54,7 @@ module EnemSolicitacao
 
     private
 
-    def submit_request(kind, field_id, value) # :nodoc:
+    def request(kind, field_id, value) # :nodoc:
       page = agent.get(EnemSolicitacao.path('/solicitacao/'\
         "resultado#{@year}/#{kind}/solicitacaoPelaInternet.seam"))
       form = page.form_with(id: 'formularioForm')
@@ -68,12 +65,14 @@ module EnemSolicitacao
       page = form.submit
 
       form = page.form_with(id: 'resultadoForm')
+      return unless form
       form.enctype = 'application/x-www-form-urlencoded'
       form['j_id191.x'] = 72
       form['j_id191.y'] = 19
       page = form.submit
 
       fail 'Request problem' unless page.body['sucesso']
+      last_result
     end
 
     def agent # :nodoc:

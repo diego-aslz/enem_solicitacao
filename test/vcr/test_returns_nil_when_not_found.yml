@@ -1,0 +1,340 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://sistemasenem.inep.gov.br/EnemSolicitacao/solicitacao/resultado2014/cpf/solicitacaoPelaInternet.seam
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.1) Gecko/20100122 firefox/3.6.1
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - BIGipServerEnem_Legado=3456376236.20480.0000; JSESSIONID=A92CADE9A904529FD02DA795AAA81E1B
+      Host:
+      - sistemasenem.inep.gov.br
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - 300
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      X-Powered-By:
+      - JSF/1.2
+      - 'Servlet 2.4; JBoss-4.3.0.GA_CP06 (build: SVNTag=JBPAPP_4_3_0_GA_CP06 date=200907141446)/JBossWeb-2.0'
+      Set-Cookie:
+      - JSESSIONID=A92CADE9A904529FD02DA795AAA81E1B; Path=/
+      Content-Type:
+      - text/html;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 27 Jan 2015 15:21:15 GMT
+    body:
+      encoding: UTF-8
+      string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"
+        >\n<html xml:lang=\"pt-br\" lang=\"pt-br\" xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n\t<meta
+        http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n\t<meta
+        http-equiv=\"Pragma\" content=\"no-cache\" />\n\t<meta name=\"generator\"
+        content=\"mec.gov.br\" />\n\t<meta name=\"description\" content=\"Ministrio
+        da Educao - Brasil\" />\n\t<meta name=\"keywords\" content=\"Ministrio da
+        Educao, ProUni, MEC, Site MEC, ensino, estudo, brasil, governo, federal, acessibilidade,
+        faculdades, ensino superior, ensino mdio, ensino fundamental, escola\" />\n\t<meta
+        name=\"resource-type\" content=\"document\" />\n\t<meta http-equiv=\"Cache-Control\"
+        content=\"no-cache\" />\n\t<meta http-equiv=\"Pragma\" content=\"no-cache\"
+        />\n\t<meta name=\"classification\" content=\"Internet\" />\n\t<meta name=\"robots\"
+        content=\"ALL\" />\n\t<meta name=\"rating\" content=\"General\" />\n\t<meta
+        name=\"copyright\" content=\"MEC\" />\n\t<meta name=\"language\" content=\"pt-br\"
+        />\n\t<meta name=\"doc-class\" content=\"Completed\" />\n\t<meta name=\"doc-rights\"
+        content=\"Public\" />\n\t<meta name=\"DC.title\" content=\"MEC\" />\n\t<meta
+        name=\"geo.region\" content=\"BR-DF\" />\n\t<meta name=\"geo.placename\" content=\"Distrito
+        Federal\" />\n\t<meta name=\"distribution\" content=\"Global\" />\n\t<meta
+        name=\"revisit-after\" content=\"1\" />\n\t<meta http-equiv=\"Pragma\" content=\"no-cache\"
+        />\n\t<meta http-equiv=\"Cache-Control\" content=\"no-cache\" />\n\t<meta
+        http-equiv=\"Cache-Control\" content=\"must-revalidate\" />\n\t<meta http-equiv=\"Expires\"
+        content=\"Mon, 1 Jan 2006 05:00:00\" />\n\t<title>Minist&eacute;rio da Educa&ccedil;&atilde;o
+        - MEC</title>\n\t<link class=\"component\" href=\"/EnemSolicitacao/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/basic_classes.xcss/DATB/eAGbUnaFO3T5DGkAEaUDmQ__\"
+        rel=\"stylesheet\" type=\"text/css\" /><link class=\"component\" href=\"/EnemSolicitacao/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAGbUnaFO3T5DGkAEaUDmQ__\"
+        media=\"rich-extended-skinning\" rel=\"stylesheet\" type=\"text/css\" /><link
+        class=\"component\" href=\"/EnemSolicitacao/a4j/s/3_3_3.Finalcss/panel.xcss/DATB/eAGbUnaFO3T5DGkAEaUDmQ__\"
+        rel=\"stylesheet\" type=\"text/css\" /><script src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalorg.ajax4jsf.javascript.PrototypeScript\"
+        type=\"text/javascript\"></script><script src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalscripts/scriptaculous/effects.js\"
+        type=\"text/javascript\"></script><script src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/script/processEffect.js\"
+        type=\"text/javascript\"></script><script src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalorg.ajax4jsf.javascript.AjaxScript\"
+        type=\"text/javascript\"></script><script src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/datascroller.js\"
+        type=\"text/javascript\"></script><link class=\"component\" href=\"/EnemSolicitacao/a4j/s/3_3_3.Finalcss/datascroller.xcss/DATB/eAGbUnaFO3T5DGkAEaUDmQ__\"
+        rel=\"stylesheet\" type=\"text/css\" /><link class=\"component\" href=\"/EnemSolicitacao/a4j/s/3_3_3.Finalcss/table.xcss/DATB/eAGbUnaFO3T5DGkAEaUDmQ__\"
+        rel=\"stylesheet\" type=\"text/css\" /><script type=\"text/javascript\">window.RICH_FACES_EXTENDED_SKINNING_ON=true;</script><script
+        src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/skinning.js\"
+        type=\"text/javascript\"></script><link class=\"user\" href=\"/EnemSolicitacao/a4j/g/3_3_3.Finalform/form.css\"
+        rel=\"stylesheet\" type=\"text/css\" /><script src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalform/form.js\"
+        type=\"text/javascript\"></script><link rel=\"shortcut icon\" href=\"favicon.ico\"
+        type=\"image/x-icon\" />\n\t<link rel=\"stylesheet\" media=\"screen\" href=\"http://public.inep.gov.br/MECdefault/css/screen.css\"
+        />\n\t<link rel=\"stylesheet\" media=\"print\" href=\"http://public.inep.gov.br/MECdefault/css/print.css\"
+        />\n\t\n    \n    <script>\n\t\t//<![CDATA[\n\t\t\tvar loadPrototype\t= (!(typeof
+        Prototype=='undefined')) ? ((!Prototype.Version)|| false) : false;\n\t\t\tif(loadPrototype){\n\t\t\t\t//document.write('<script
+        type=\"text/javascript\" src=\"http://public.inep.gov.br/MECdefault/js/lib/prototype/prototype.js\"><\\/script>');\n\t\t\t}\n\t\t\t\n\t\t\tvar
+        loadFormulario\t= (typeof Formulario=='undefined') || false;\n\t\t\tif(loadFormulario){\n\t\t\t\t//document.write('<script
+        type=\"text/javascript\" src=\"http://public.inep.gov.br/MECdefault/js/class/component/Formulario.js\"><\\/script>');\n\t\t\t}\n\t\t//]]>\n\t</script>\n\t<script
+        src=\"http://public.inep.gov.br/MECdefault/js/lib/scriptaculous/scriptaculous.js?load=effects\"></script>\n\t\n\t<script
+        src=\"http://public.inep.gov.br/MECdefault/js/class/InepMain.js\"></script>\n\t<style
+        type=\"text/css\">\n\t\t.AcessibilidadeBotoes {\n\t\t\twidth: 300px; \n\t\t\theight:
+        22px;\n\t\t\ttext-align: right;\n\t\t\tmargin-left: auto; \n\t\t\tpadding:
+        5px;\n\t\t}\n\n\t\t#FonteNormal {\n\t\t\tcolor: white;\n\t\t\ttext-decoration:
+        none;\n\t\t}\n\t\t\n\t\t#AumentarFonte {\n\t\t\tcolor: white;\n\t\t\ttext-decoration:
+        none;\n\t\t}\n\t\t\n\t\t#DiminuirFonte {\n\t\t\tcolor: white;\n\t\t\ttext-decoration:
+        none;\n\t\t}\n\t</style>\n\t\t<link href=\"/EnemSolicitacao/stylesheet/site.css\"
+        rel=\"stylesheet\" type=\"text/css\" />\n\t\t<script language=\"JavaScript\">\n\t
+        \   \tjavascript:window.history.forward(1);\t\n\t    </script>\n\t    <script
+        language=\"javascript\" type=\"text/javascript\">\n\t\tsomenteNumeros = function(e)
+        {\n\t\t\tvar tecla = (window.event) ? event.keyCode : e.which;\n\t       \tif
+        (tecla > 47 && tecla < 58) {\n\t\t\t\treturn true;\n\t\t\t}\n\t\t\tif (tecla
+        == 8 || tecla == 0) {\n\t\t\t\treturn true;\n\t\t\t}\n\t\t\treturn false;\n\t\t}\n\t</script>\n</head>\n\n<body>\n<div
+        id=\"barra-brasil\">\n   <a href=\"http://brasil.gov.br\" style=\"background:#7F7F7F;
+        height: 20px; padding:4px 0 4px 10px; display: block; font-family:sans,sans-serif;
+        text-decoration:none; color:white; \">Portal do Governo Brasileiro</a>\n</div>\n\n\n<div
+        id=\"Wrapper\">\n\t\n\t<div id=\"Header\">\n\t\t<div id=\"LogoRepublica\">\n\t\t<img
+        src=\"http://public.inep.gov.br/MECdefault/files/images/logos/republica.jpg\"
+        class=\"OnlyPrint\" />\n\t\t</div>\n\t\t\n\t\t<div class=\"INEP\">\n\t\t\t<div
+        id=\"LinkINEP\" class=\"NoPrint\"></div>\n\t\t\t<h2 class=\"OnlyPrint\"><a
+        href=\"http://www.inep.gov.br/\">Instituto Nacional de Estudos e <br /> Pesquisas
+        Educacionais An&iacute;sio Teixeira</a></h2>\n\t\t\t<div class=\"AcessibilidadeBotoes\">\n
+        \             <a href=\"javascript:controlFontSize('0', 180, 60); void(0);\"
+        id=\"FonteNormal\">\n                <img width=\"15\" height=\"15\" alt=\"Fonte
+        normal\" src=\"http://public.inep.gov.br/MECdefault/files/images/a_normal.png\"
+        />\n              </a>\n              <a href=\"javascript:controlFontSize('+',
+        180, 60); void(0);\" id=\"AumentarFonte\">\n                <img width=\"15\"
+        height=\"15\" alt=\"Aumentar fonte\" src=\"http://public.inep.gov.br/MECdefault/files/images/a_mais.png\"
+        />\n              </a>\n              <a href=\"javascript:controlFontSize('-',
+        180, 60); void(0);\" id=\"DiminuirFonte\">\n                <img width=\"15\"
+        height=\"15\" alt=\"Diminuir fonte.\" src=\"http://public.inep.gov.br/MECdefault/files/images/a_menos.png\"
+        />\n              </a>\n            </div>\n\t\t</div>\n\t\t<div class=\"Topo\">\n\t\t\t<div
+        class=\"Ilustracao\"></div>\n\t\t\t\n\t\t</div>\n\t</div>\n\t\n\t<br class=\"Clear\"
+        />\n\t\n\t<div id=\"LeftMenu\" class=\"NoPrint\">\n<form id=\"menuForm\" name=\"menuForm\"
+        method=\"post\" action=\"/EnemSolicitacao/solicitacao/resultado2014/cpf/solicitacaoPelaInternet.seam\"
+        enctype=\"application/x-www-form-urlencoded\">\n<input type=\"hidden\" name=\"menuForm\"
+        value=\"menuForm\" />\n\n\t\t<ul>\n\t\t\t<li></li>\n\t\t</ul>\n\t\t<ul>\n\t\t\t<li></li>\n\t\t</ul><input
+        type=\"hidden\" name=\"javax.faces.ViewState\" id=\"javax.faces.ViewState\"
+        value=\"j_id1\" />\n</form>\n\t</div>\n\t<div id=\"ContentHolder\">\n \n\t\t<h4>Solicita&ccedil;&atilde;o
+        pela internet (CPF) para o exame de 2014<hr />\n\t\t</h4>\n\t\t<p>\n\t\t\tPara
+        acesso aos resultados do Enem 2014, insira o(s) CPF(s) dos participantes que
+        deseja pesquisar.<br />\n\t\t\t<br />\n\t\t\tSeguem instru&ccedil;&otilde;es
+        sobre a inser&ccedil;&atilde;o do(s) CPF(s):<br />                            \n\t\t\t<ol>\n\t\t\t\t<li>Limite
+        de  20 CPF's por consulta;</li>\n\t\t\t\t<li>Separados por &quot;;&quot;;</li>\n\t\t\t\t<li>N&atilde;o
+        deve conter espa&ccedil;o entre os CPF's.</li>\n\t\t\t</ol>\n\t\t\tEx.: 12345678912;12345678913<br
+        />\n\t\t\t<br />\n\t\t\tOBS.: Dever&aacute; ser informado apenas os n&uacute;meros
+        do CPF , sem ponto (.) e sem tra&ccedil;o (-).\n\t\t</p>\n<form id=\"formularioForm\"
+        name=\"formularioForm\" method=\"post\" action=\"/EnemSolicitacao/solicitacao/resultado2014/cpf/solicitacaoPelaInternet.seam\"
+        enctype=\"\">\n<input type=\"hidden\" name=\"formularioForm\" value=\"formularioForm\"
+        />\n\n\t\t<script>\n\t\t\tvar formularioForm = new Formulario();\n\t\t\tEvent.observe($('formularioForm'),'submit',function(){\n\t\t\t\tvar
+        form\t= formularioForm;\n\t\t\t\tsetTimeout(function(){\n\t\t\t\t\tform.error\t=
+        new Array();\n\t\t\t\t},10);\n\t\t\t});\n\t\t</script><div id=\"formularioFormMessages\"
+        class=\"Error\"></div><div id=\"j_id24\"><div id=\"cpfDecorate\">\n\t\t\t<dl
+        class=\"FieldHolder\">\n\t\t\t\t<dt class=\"t3\"><label id=\"cpfDecorate:cpfLabel\"
+        for=\"cpfDecorate:cpfInput\" accesskey=\"\">\nCPFs: </label><span id=\"cpfDecorate:j_id26\"
+        style=\"color: red\">*</span></dt>\n\t\t\t\t<dd class=\"t3\" style=\"\"><input
+        id=\"cpfDecorate:cpfInput\" type=\"text\" name=\"cpfDecorate:cpfInput\" autocomplete=\"off\"
+        accesskey=\"\" maxlength=\"300\" onkeydown=\"\" onkeypress=\"\" onkeyup=\"\"
+        style=\"\" title=\" obrigat&oacute;rio\" />\t\t\t\n\t\t\t\n\t\t\t<script>var
+        seamField_cpf\t= new Formulario.SeamField('Input', 'cpf', 'formularioForm',
+        true, '', '', 'true');</script>\n\t\t\t\t\t<div class=\"Error\"><span id=\"cpfDecorate:cpfErrors\"></span>\n\t\t\t\t\t</div>\n\t\t\t\t</dd>\n\t\t\t</dl></div></div>\n\t\t\t<br
+        class=\"Clear\" /><input type=\"image\" src=\"http://public.inep.gov.br/MECdefault/files/images/botoes/acao/vermelho/pesquisar.jpg\"
+        name=\"j_id34\" />\n\t\t\t<br class=\"Clear\" /><input type=\"hidden\" name=\"javax.faces.ViewState\"
+        id=\"javax.faces.ViewState\" value=\"j_id1\" />\n</form>\n\t\t<br class=\"Clear\"
+        />\n\t\t<br class=\"Clear\" />\n\t\t<br class=\"Clear\" />\n\t</div>\n\t\n\t<br
+        class=\"Clear\" />\n\t\n\t<div id=\"Footer\" class=\"NoPrint\">Copyright MEC
+        - INEP - Instituto Nacional de Estudos e Pesquisas Educacionais An&iacute;sio
+        Teixeira</div>\n</div>\n<script src=\"http://public.inep.gov.br/barra_governo/barra-sistema.js\"
+        type=\"text/javascript\"></script>\n</body>\n</html>"
+    http_version: 
+  recorded_at: Tue, 27 Jan 2015 15:21:00 GMT
+- request:
+    method: post
+    uri: http://sistemasenem.inep.gov.br/EnemSolicitacao/solicitacao/resultado2014/cpf/solicitacaoPelaInternet.seam
+    body:
+      encoding: UTF-8
+      string: formularioForm=formularioForm&cpfDecorate%3AcpfInput=11111111112&javax.faces.ViewState=j_id1&j_id131.x=81&j_id131.y=23
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.1) Gecko/20100122 firefox/3.6.1
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - BIGipServerEnem_Legado=3456376236.20480.0000; JSESSIONID=A92CADE9A904529FD02DA795AAA81E1B
+      Host:
+      - sistemasenem.inep.gov.br
+      Referer:
+      - !ruby/object:URI::HTTP
+        scheme: http
+        user: 
+        password: 
+        host: sistemasenem.inep.gov.br
+        port: 80
+        path: "/EnemSolicitacao/solicitacao/resultado2014/cpf/solicitacaoPelaInternet.seam"
+        query: 
+        opaque: 
+        registry: 
+        fragment: 
+        parser: 
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Content-Length:
+      - '118'
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - 300
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      X-Powered-By:
+      - JSF/1.2
+      - 'Servlet 2.4; JBoss-4.3.0.GA_CP06 (build: SVNTag=JBPAPP_4_3_0_GA_CP06 date=200907141446)/JBossWeb-2.0'
+      Content-Type:
+      - text/html;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 27 Jan 2015 15:21:15 GMT
+    body:
+      encoding: UTF-8
+      string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"
+        >\n<html xml:lang=\"pt-br\" lang=\"pt-br\" xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n\t<meta
+        http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n\t<meta
+        http-equiv=\"Pragma\" content=\"no-cache\" />\n\t<meta name=\"generator\"
+        content=\"mec.gov.br\" />\n\t<meta name=\"description\" content=\"Ministrio
+        da Educao - Brasil\" />\n\t<meta name=\"keywords\" content=\"Ministrio da
+        Educao, ProUni, MEC, Site MEC, ensino, estudo, brasil, governo, federal, acessibilidade,
+        faculdades, ensino superior, ensino mdio, ensino fundamental, escola\" />\n\t<meta
+        name=\"resource-type\" content=\"document\" />\n\t<meta http-equiv=\"Cache-Control\"
+        content=\"no-cache\" />\n\t<meta http-equiv=\"Pragma\" content=\"no-cache\"
+        />\n\t<meta name=\"classification\" content=\"Internet\" />\n\t<meta name=\"robots\"
+        content=\"ALL\" />\n\t<meta name=\"rating\" content=\"General\" />\n\t<meta
+        name=\"copyright\" content=\"MEC\" />\n\t<meta name=\"language\" content=\"pt-br\"
+        />\n\t<meta name=\"doc-class\" content=\"Completed\" />\n\t<meta name=\"doc-rights\"
+        content=\"Public\" />\n\t<meta name=\"DC.title\" content=\"MEC\" />\n\t<meta
+        name=\"geo.region\" content=\"BR-DF\" />\n\t<meta name=\"geo.placename\" content=\"Distrito
+        Federal\" />\n\t<meta name=\"distribution\" content=\"Global\" />\n\t<meta
+        name=\"revisit-after\" content=\"1\" />\n\t<meta http-equiv=\"Pragma\" content=\"no-cache\"
+        />\n\t<meta http-equiv=\"Cache-Control\" content=\"no-cache\" />\n\t<meta
+        http-equiv=\"Cache-Control\" content=\"must-revalidate\" />\n\t<meta http-equiv=\"Expires\"
+        content=\"Mon, 1 Jan 2006 05:00:00\" />\n\t<title>Minist&eacute;rio da Educa&ccedil;&atilde;o
+        - MEC</title>\n\t<link class=\"component\" href=\"/EnemSolicitacao/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/basic_classes.xcss/DATB/eAGbUnaFO3T5DGkAEaUDmQ__\"
+        rel=\"stylesheet\" type=\"text/css\" /><link class=\"component\" href=\"/EnemSolicitacao/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAGbUnaFO3T5DGkAEaUDmQ__\"
+        media=\"rich-extended-skinning\" rel=\"stylesheet\" type=\"text/css\" /><link
+        class=\"component\" href=\"/EnemSolicitacao/a4j/s/3_3_3.Finalcss/panel.xcss/DATB/eAGbUnaFO3T5DGkAEaUDmQ__\"
+        rel=\"stylesheet\" type=\"text/css\" /><script src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalorg.ajax4jsf.javascript.PrototypeScript\"
+        type=\"text/javascript\"></script><script src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalscripts/scriptaculous/effects.js\"
+        type=\"text/javascript\"></script><script src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/script/processEffect.js\"
+        type=\"text/javascript\"></script><script src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalorg.ajax4jsf.javascript.AjaxScript\"
+        type=\"text/javascript\"></script><script src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/datascroller.js\"
+        type=\"text/javascript\"></script><link class=\"component\" href=\"/EnemSolicitacao/a4j/s/3_3_3.Finalcss/datascroller.xcss/DATB/eAGbUnaFO3T5DGkAEaUDmQ__\"
+        rel=\"stylesheet\" type=\"text/css\" /><link class=\"component\" href=\"/EnemSolicitacao/a4j/s/3_3_3.Finalcss/table.xcss/DATB/eAGbUnaFO3T5DGkAEaUDmQ__\"
+        rel=\"stylesheet\" type=\"text/css\" /><script type=\"text/javascript\">window.RICH_FACES_EXTENDED_SKINNING_ON=true;</script><script
+        src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/skinning.js\"
+        type=\"text/javascript\"></script><link class=\"user\" href=\"/EnemSolicitacao/a4j/g/3_3_3.Finalform/form.css\"
+        rel=\"stylesheet\" type=\"text/css\" /><script src=\"/EnemSolicitacao/a4j/g/3_3_3.Finalform/form.js\"
+        type=\"text/javascript\"></script><link rel=\"shortcut icon\" href=\"favicon.ico\"
+        type=\"image/x-icon\" />\n\t<link rel=\"stylesheet\" media=\"screen\" href=\"http://public.inep.gov.br/MECdefault/css/screen.css\"
+        />\n\t<link rel=\"stylesheet\" media=\"print\" href=\"http://public.inep.gov.br/MECdefault/css/print.css\"
+        />\n\t\n    \n    <script>\n\t\t//<![CDATA[\n\t\t\tvar loadPrototype\t= (!(typeof
+        Prototype=='undefined')) ? ((!Prototype.Version)|| false) : false;\n\t\t\tif(loadPrototype){\n\t\t\t\t//document.write('<script
+        type=\"text/javascript\" src=\"http://public.inep.gov.br/MECdefault/js/lib/prototype/prototype.js\"><\\/script>');\n\t\t\t}\n\t\t\t\n\t\t\tvar
+        loadFormulario\t= (typeof Formulario=='undefined') || false;\n\t\t\tif(loadFormulario){\n\t\t\t\t//document.write('<script
+        type=\"text/javascript\" src=\"http://public.inep.gov.br/MECdefault/js/class/component/Formulario.js\"><\\/script>');\n\t\t\t}\n\t\t//]]>\n\t</script>\n\t<script
+        src=\"http://public.inep.gov.br/MECdefault/js/lib/scriptaculous/scriptaculous.js?load=effects\"></script>\n\t\n\t<script
+        src=\"http://public.inep.gov.br/MECdefault/js/class/InepMain.js\"></script>\n\t<style
+        type=\"text/css\">\n\t\t.AcessibilidadeBotoes {\n\t\t\twidth: 300px; \n\t\t\theight:
+        22px;\n\t\t\ttext-align: right;\n\t\t\tmargin-left: auto; \n\t\t\tpadding:
+        5px;\n\t\t}\n\n\t\t#FonteNormal {\n\t\t\tcolor: white;\n\t\t\ttext-decoration:
+        none;\n\t\t}\n\t\t\n\t\t#AumentarFonte {\n\t\t\tcolor: white;\n\t\t\ttext-decoration:
+        none;\n\t\t}\n\t\t\n\t\t#DiminuirFonte {\n\t\t\tcolor: white;\n\t\t\ttext-decoration:
+        none;\n\t\t}\n\t</style>\n\t\t<link href=\"/EnemSolicitacao/stylesheet/site.css\"
+        rel=\"stylesheet\" type=\"text/css\" />\n\t\t<script language=\"JavaScript\">\n\t
+        \   \tjavascript:window.history.forward(1);\t\n\t    </script>\n\t    <script
+        language=\"javascript\" type=\"text/javascript\">\n\t\tsomenteNumeros = function(e)
+        {\n\t\t\tvar tecla = (window.event) ? event.keyCode : e.which;\n\t       \tif
+        (tecla > 47 && tecla < 58) {\n\t\t\t\treturn true;\n\t\t\t}\n\t\t\tif (tecla
+        == 8 || tecla == 0) {\n\t\t\t\treturn true;\n\t\t\t}\n\t\t\treturn false;\n\t\t}\n\t</script>\n</head>\n\n<body>\n<div
+        id=\"barra-brasil\">\n   <a href=\"http://brasil.gov.br\" style=\"background:#7F7F7F;
+        height: 20px; padding:4px 0 4px 10px; display: block; font-family:sans,sans-serif;
+        text-decoration:none; color:white; \">Portal do Governo Brasileiro</a>\n</div>\n\n\n<div
+        id=\"Wrapper\">\n\t\n\t<div id=\"Header\">\n\t\t<div id=\"LogoRepublica\">\n\t\t<img
+        src=\"http://public.inep.gov.br/MECdefault/files/images/logos/republica.jpg\"
+        class=\"OnlyPrint\" />\n\t\t</div>\n\t\t\n\t\t<div class=\"INEP\">\n\t\t\t<div
+        id=\"LinkINEP\" class=\"NoPrint\"></div>\n\t\t\t<h2 class=\"OnlyPrint\"><a
+        href=\"http://www.inep.gov.br/\">Instituto Nacional de Estudos e <br /> Pesquisas
+        Educacionais An&iacute;sio Teixeira</a></h2>\n\t\t\t<div class=\"AcessibilidadeBotoes\">\n
+        \             <a href=\"javascript:controlFontSize('0', 180, 60); void(0);\"
+        id=\"FonteNormal\">\n                <img width=\"15\" height=\"15\" alt=\"Fonte
+        normal\" src=\"http://public.inep.gov.br/MECdefault/files/images/a_normal.png\"
+        />\n              </a>\n              <a href=\"javascript:controlFontSize('+',
+        180, 60); void(0);\" id=\"AumentarFonte\">\n                <img width=\"15\"
+        height=\"15\" alt=\"Aumentar fonte\" src=\"http://public.inep.gov.br/MECdefault/files/images/a_mais.png\"
+        />\n              </a>\n              <a href=\"javascript:controlFontSize('-',
+        180, 60); void(0);\" id=\"DiminuirFonte\">\n                <img width=\"15\"
+        height=\"15\" alt=\"Diminuir fonte.\" src=\"http://public.inep.gov.br/MECdefault/files/images/a_menos.png\"
+        />\n              </a>\n            </div>\n\t\t</div>\n\t\t<div class=\"Topo\">\n\t\t\t<div
+        class=\"Ilustracao\"></div>\n\t\t\t\n\t\t</div>\n\t</div>\n\t\n\t<br class=\"Clear\"
+        />\n\t\n\t<div id=\"LeftMenu\" class=\"NoPrint\">\n<form id=\"menuForm\" name=\"menuForm\"
+        method=\"post\" action=\"/EnemSolicitacao/solicitacao/resultado2014/cpf/solicitacaoPelaInternet.seam\"
+        enctype=\"application/x-www-form-urlencoded\">\n<input type=\"hidden\" name=\"menuForm\"
+        value=\"menuForm\" />\n\n\t\t<ul>\n\t\t\t<li></li>\n\t\t</ul>\n\t\t<ul>\n\t\t\t<li></li>\n\t\t</ul><input
+        type=\"hidden\" name=\"javax.faces.ViewState\" id=\"javax.faces.ViewState\"
+        value=\"j_id2\" />\n</form>\n\t</div>\n\t<div id=\"ContentHolder\">\n \n\t\t<h4>Solicita&ccedil;&atilde;o
+        pela internet (CPF) para o exame de 2014<hr />\n\t\t</h4>\n\t\t<p>\n\t\t\tPara
+        acesso aos resultados do Enem 2014, insira o(s) CPF(s) dos participantes que
+        deseja pesquisar.<br />\n\t\t\t<br />\n\t\t\tSeguem instru&ccedil;&otilde;es
+        sobre a inser&ccedil;&atilde;o do(s) CPF(s):<br />                            \n\t\t\t<ol>\n\t\t\t\t<li>Limite
+        de  20 CPF's por consulta;</li>\n\t\t\t\t<li>Separados por &quot;;&quot;;</li>\n\t\t\t\t<li>N&atilde;o
+        deve conter espa&ccedil;o entre os CPF's.</li>\n\t\t\t</ol>\n\t\t\tEx.: 12345678912;12345678913<br
+        />\n\t\t\t<br />\n\t\t\tOBS.: Dever&aacute; ser informado apenas os n&uacute;meros
+        do CPF , sem ponto (.) e sem tra&ccedil;o (-).\n\t\t</p>\n<form id=\"formularioForm\"
+        name=\"formularioForm\" method=\"post\" action=\"/EnemSolicitacao/solicitacao/resultado2014/cpf/solicitacaoPelaInternet.seam\"
+        enctype=\"\">\n<input type=\"hidden\" name=\"formularioForm\" value=\"formularioForm\"
+        />\n\n\t\t<script>\n\t\t\tvar formularioForm = new Formulario();\n\t\t\tEvent.observe($('formularioForm'),'submit',function(){\n\t\t\t\tvar
+        form\t= formularioForm;\n\t\t\t\tsetTimeout(function(){\n\t\t\t\t\tform.error\t=
+        new Array();\n\t\t\t\t},10);\n\t\t\t});\n\t\t</script><div id=\"formularioFormMessages\"
+        class=\"Error\"></div><div id=\"j_id24\"><div id=\"cpfDecorate\">\n\t\t\t<dl
+        class=\"FieldHolder\">\n\t\t\t\t<dt class=\"t3\"><label id=\"cpfDecorate:cpfLabel\"
+        for=\"cpfDecorate:cpfInput\" accesskey=\"\">\nCPFs: </label><span id=\"cpfDecorate:j_id26\"
+        style=\"color: red\">*</span></dt>\n\t\t\t\t<dd class=\"t3\" style=\"\"><input
+        id=\"cpfDecorate:cpfInput\" type=\"text\" name=\"cpfDecorate:cpfInput\" autocomplete=\"off\"
+        value=\"11111111112\" accesskey=\"\" maxlength=\"300\" onkeydown=\"\" onkeypress=\"\"
+        onkeyup=\"\" style=\"\" title=\" obrigat&oacute;rio\" />\t\t\t\n\t\t\t\n\t\t\t<script>var
+        seamField_cpf\t= new Formulario.SeamField('Input', 'cpf', 'formularioForm',
+        true, '', '', 'true');</script>\n\t\t\t\t\t<div class=\"Error\"><span id=\"cpfDecorate:cpfErrors\"></span>\n\t\t\t\t\t</div>\n\t\t\t\t</dd>\n\t\t\t</dl></div></div>\n\t\t\t<br
+        class=\"Clear\" /><input type=\"image\" src=\"http://public.inep.gov.br/MECdefault/files/images/botoes/acao/vermelho/pesquisar.jpg\"
+        name=\"j_id34\" />\n\t\t\t<br class=\"Clear\" /><input type=\"hidden\" name=\"javax.faces.ViewState\"
+        id=\"javax.faces.ViewState\" value=\"j_id2\" />\n</form>\n\t\t<br class=\"Clear\"
+        />\n\t\t<br class=\"Clear\" />\n\t\t<br class=\"Clear\" />\n\t</div>\n\t\n\t<br
+        class=\"Clear\" />\n\t\n\t<div id=\"Footer\" class=\"NoPrint\">Copyright MEC
+        - INEP - Instituto Nacional de Estudos e Pesquisas Educacionais An&iacute;sio
+        Teixeira</div>\n</div>\n<script src=\"http://public.inep.gov.br/barra_governo/barra-sistema.js\"
+        type=\"text/javascript\"></script>\n</body>\n</html>"
+    http_version: 
+  recorded_at: Tue, 27 Jan 2015 15:21:01 GMT
+recorded_with: VCR 2.9.2
