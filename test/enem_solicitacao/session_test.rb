@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class SessionTest < Minitest::Unit::TestCase
+class SessionTest < MyTest
   def test_logs_user_in
     VCR.insert_cassette 'test_logs_user_in'
     session = EnemSolicitacao::Session.new  EnemSolicitacao.user,

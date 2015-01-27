@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class GatewayTest < Minitest::Unit::TestCase
+class GatewayTest < MyTest
   def gateway
     @gateway ||= EnemSolicitacao.gateway
   end
