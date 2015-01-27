@@ -1,13 +1,31 @@
 module EnemSolicitacao
+  # Esta classe fornece uma interface para interagir com sistema Enem
+  # Solicitação. Com ela, é possível buscar resultados de candidatos.
+  # Ela pode ser instanciada manualmente da seguinte maneira:
+  #
+  #     session = EnemSolicitacao::Session.new('login', 'password')
+  #     gateway = EnemSolicitacao::Gateway.new(session, ano_referencia)
+  #
+  # No entanto, o recomendado é utilizar o objeto "global":
+  #
+  #     EnemSolicitacao.gateway
+  #
+  # Este último utiliza uma sessão global e a configuração geral de login e
+  # senha. Veja a documentação de EnemSolicitacao para maiores detalhes.
   class Gateway
     REGISTRY_KIND = 'numeroInscricao'
     CPF_KIND      = 'cpf'
 
+    # Construtor.
+    #     `session`: Sessão para autenticação no sistema
+    #     `year`: Ano de referência para as consultas.
     def initialize(session, year = EnemSolicitacao.year)
       @session = session
       @year    = year
     end
 
+    # Busca resultados pelo número de inscrição. Retorna o conteúdo do arquivo
+    # gerado pelo sistema do Inep (formato CSV) em texto puro.
     def search_by_registry(*registries)
       submit_request REGISTRY_KIND,
                      'numerosInscricaoDecorate:numerosInscricaoInput',
@@ -15,11 +33,14 @@ module EnemSolicitacao
       last_result
     end
 
+    # Busca resultados pelo CPF. Retorna o conteúdo do arquivo gerado pelo
+    # sistema do Inep (formato CSV) em texto puro.
     def search_by_cpf(*cpfs)
       submit_request CPF_KIND, 'cpfDecorate:cpfInput', cpfs.join(';')
       last_result
     end
 
+    # Carrega e retorna o conteúdo do resultado da última busca efetuada.
     def last_result
       page = agent.get(EnemSolicitacao.path('/solicitacao/acompanhar'\
         'Solicitacao.seam'))
@@ -36,7 +57,7 @@ module EnemSolicitacao
 
     private
 
-    def submit_request(kind, field_id, value)
+    def submit_request(kind, field_id, value) # :nodoc:
       page = agent.get(EnemSolicitacao.path('/solicitacao/'\
         "resultado#{@year}/#{kind}/solicitacaoPelaInternet.seam"))
       form = page.form_with(id: 'formularioForm')
@@ -55,7 +76,7 @@ module EnemSolicitacao
       fail 'Request problem' unless page.body['sucesso']
     end
 
-    def agent
+    def agent # :nodoc:
       @session.agent
     end
   end

@@ -1,4 +1,7 @@
 module EnemSolicitacao
+  # Representa uma sessão com o sistema do Inep. Precisa de um login e senha
+  # para autenticação, procedimento que só é executado quando uma busca é
+  # realizada.
   class Session
     def initialize(login, password)
       @login    = login
@@ -7,21 +10,25 @@ module EnemSolicitacao
       @agent.user_agent_alias = 'Linux Firefox'
     end
 
+    # Retorna um `agent` (objeto `Mechanize`). Autentica o usuário, caso ainda
+    # não esteja autenticado.
     def agent
       establish unless established?
       @agent
     end
 
-    def established?
+    def established? # :nodoc:
       @status == :established
     end
 
     private
 
-    def login_url
+    def login_url # :nodoc:
       EnemSolicitacao.path '/login.seam'
     end
 
+    # Faz a autenticação. Se ela não obtiver sucesso, uma exceção será
+    # disparada.
     def establish(login = @login, password = @password)
       login_page    = @agent.get(login_url)
       form          = login_page.form_with(id: 'formLogin')
