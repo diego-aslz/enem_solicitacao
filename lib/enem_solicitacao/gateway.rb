@@ -1,15 +1,16 @@
 module EnemSolicitacao
   class Gateway
-    def initialize(session, options={})
+    def initialize(session, year = EnemSolicitacao.year)
       @session = session
+      @year    = year
     end
 
-    def search_by_registry(registry, year = EnemSolicitacao.year)
+    def search_by_registry(*registries)
       page = agent.get(EnemSolicitacao.path('/solicitacao/'\
-        "resultado#{year}/numeroInscricao/solicitacaoPelaInternet.seam"))
+        "resultado#{@year}/numeroInscricao/solicitacaoPelaInternet.seam"))
       form = page.form_with(id: 'formularioForm')
       form.enctype = 'application/x-www-form-urlencoded'
-      form['numerosInscricaoDecorate:numerosInscricaoInput'] = registry
+      form['numerosInscricaoDecorate:numerosInscricaoInput'] = registries.join(';')
       form['j_id131.x'] = 81
       form['j_id131.y'] = 23
 
@@ -24,12 +25,12 @@ module EnemSolicitacao
       last_result
     end
 
-    def search_by_cpf(cpf, year = EnemSolicitacao.year)
+    def search_by_cpf(*cpfs)
       page = agent.get(EnemSolicitacao.path('/solicitacao/'\
-        "resultado#{year}/cpf/solicitacaoPelaInternet.seam"))
+        "resultado#{@year}/cpf/solicitacaoPelaInternet.seam"))
       form = page.form_with(id: 'formularioForm')
       form.enctype = 'application/x-www-form-urlencoded'
-      form['cpfDecorate:cpfInput'] = cpf
+      form['cpfDecorate:cpfInput'] = cpfs.join(';')
       form['j_id131.x'] = 81
       form['j_id131.y'] = 23
 
