@@ -38,7 +38,7 @@ module EnemSolicitacao
     end
 
     # Carrega e retorna o conteúdo do resultado da última busca efetuada.
-    def last_result
+    def last_result(retries: 5)
       page = agent.get(EnemSolicitacao.path('/solicitacao/acompanhar'\
         'Solicitacao.seam'))
       table = page.search('table#listaSolicitacaoAtendidas').first
@@ -46,10 +46,16 @@ module EnemSolicitacao
       table.search('tr').each do |tr|
         tds = tr.search('td').to_a
         next if tds.empty?
+        fail('Solicitação em Processamento') unless tds[4].text['Fechado']
         result[tds[2].text.strip] = tds[4].search('a').first \
                                           .attributes['href'].value
       end
       agent.get(result.sort.last.last).body.strip
+    rescue e
+      warn e.message
+      retries -= 1
+      retry if retries > -1
+      raise
     end
 
     private
