@@ -56,6 +56,6 @@ Ambos os métodos podem receber mais de um argumento de uma só vez e a busca
 retornará os registros separados por linha. Porém, segundo o site, há um
 limite de 20 registros para cada busca.
 
-## Licensa
+## Licença
 
 MIT.
