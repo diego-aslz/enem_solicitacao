@@ -21,6 +21,9 @@ require 'mechanize'
 module EnemSolicitacao
   VERSION = '0.0.1'
 
+  autoload :Session, 'enem_solicitacao/session'
+  autoload :Gateway, 'enem_solicitacao/gateway'
+
   # Ano de referência padrão. Se não configurado, será utilizado o ano anterior.
   def self.year
     @year ||= Date.today.year - 1
@@ -66,6 +69,3 @@ module EnemSolicitacao
     @gateway ||= Gateway.new(session)
   end
 end
-
-require 'enem_solicitacao/session'
-require 'enem_solicitacao/gateway'
