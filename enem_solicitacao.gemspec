@@ -15,8 +15,8 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/nerde/enem_solicitacao'
   s.license     = 'MIT'
 
-  s.add_dependency 'mechanize'
-  s.add_development_dependency 'vcr'
-  s.add_development_dependency 'webmock'
-  s.add_development_dependency 'dotenv'
+  s.add_dependency 'mechanize', '~> 2.7'
+  s.add_development_dependency 'vcr', '~> 2.9'
+  s.add_development_dependency 'webmock', '~> 1.18'
+  s.add_development_dependency 'dotenv', '~> 1.0'
 end
