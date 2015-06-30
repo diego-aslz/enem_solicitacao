@@ -1,5 +1,3 @@
-require 'bundler/setup'
-
 require 'minitest/autorun'
 require 'minitest/pride'
 require 'vcr'
@@ -11,7 +9,7 @@ require 'enem_solicitacao'
 
 Dir["#{File.dirname(__FILE__)}/support/*.rb"].each { |f| require f }
 
-class MyTest < Minitest::Unit::TestCase
+class MyTest < Minitest::Test
   def setup
     EnemSolicitacao.instance_variable_set(:@session, nil)
     EnemSolicitacao.instance_variable_set(:@gateway, nil)
