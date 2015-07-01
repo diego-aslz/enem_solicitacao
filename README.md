@@ -1,4 +1,4 @@
-# Enem Solicitação
+# Enem Solicitação [![Build Status](https://travis-ci.org/nerde/enem_solicitacao.svg)](https://travis-ci.org/nerde/enem_solicitacao)
 
 Esta pequena biblioteca serve para buscar um resultado do Enem no sistema do INEP.
 
