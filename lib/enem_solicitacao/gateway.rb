@@ -41,16 +41,15 @@ module EnemSolicitacao
     def last_result(retries: 5)
       page = agent.get(EnemSolicitacao.path('/solicitacao/acompanhar'\
         'Solicitacao.seam'))
-      table = page.search('table#listaSolicitacaoAtendidas').first
       result = {}
-      table.search('tr').each do |tr|
-        tds = tr.search('td').to_a
-        next if tds.empty?
-        fail('Solicitação em Processamento') unless tds[4].text['Fechado']
-        result[tds[2].text.strip] = tds[4].search('a').first \
-                                          .attributes['href'].value
+      page.search('table#listaSolicitacaoAtendidas tr').each do |row|
+        cells = row.search('td').to_a
+        next if cells.empty?
+        fail('Solicitação em Processamento') unless cells[4].text['Fechado']
+        time, anchor = cells[2].text.strip, cells[4].search('a').first
+        result[time] = anchor.attributes['href'].value
       end
-      agent.get(result.sort.last.last).body.strip
+      agent.get(result[result.keys.max]).body.strip
     rescue e
       warn e.message
       retries -= 1
