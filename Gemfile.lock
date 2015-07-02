@@ -8,13 +8,17 @@ GEM
   remote: https://rubygems.org/
   specs:
     addressable (2.3.8)
+    codeclimate-test-reporter (0.4.7)
+      simplecov (>= 0.7.1, < 1.0.0)
     crack (0.4.2)
       safe_yaml (~> 1.0.0)
+    docile (1.1.5)
     domain_name (0.5.24)
       unf (>= 0.0.5, < 1.0.0)
     dotenv (1.0.2)
     http-cookie (1.0.2)
       domain_name (~> 0.5)
+    json (1.8.3)
     mechanize (2.7.3)
       domain_name (~> 0.5, >= 0.5.1)
       http-cookie (~> 1.0)
@@ -34,6 +38,11 @@ GEM
     ntlm-http (0.1.1)
     rake (10.4.2)
     safe_yaml (1.0.4)
+    simplecov (0.10.0)
+      docile (~> 1.1.0)
+      json (~> 1.8)
+      simplecov-html (~> 0.10.0)
+    simplecov-html (0.10.0)
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.1)
@@ -47,6 +56,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  codeclimate-test-reporter
   dotenv (~> 1.0)
   enem_solicitacao!
   minitest (~> 5.7)
