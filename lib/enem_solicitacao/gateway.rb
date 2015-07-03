@@ -40,22 +40,25 @@ module EnemSolicitacao
 
     # Carrega e retorna o conteúdo do resultado da última busca efetuada.
     def last_result(retries: 5)
-      page = agent.get(EnemSolicitacao.path('/solicitacao/acompanhar'\
-        'Solicitacao.seam'))
-      result = {}
-      page.search('table#listaSolicitacaoAtendidas tr').each do |row|
-        cells = row.search('td').to_a
-        next if cells.empty?
-        fail('Solicitação em Processamento') unless cells[4].text['Fechado']
-        time, anchor = cells[2].text.strip, cells[4].search('a').first
-        result[time] = anchor.attributes['href'].value
+      while retries >= 0
+        page = agent.get(EnemSolicitacao.path('/solicitacao/acompanhar'\
+          'Solicitacao.seam'))
+        result = {}
+        page.search('table#listaSolicitacaoAtendidas tr').each do |row|
+          cells = row.search('td').to_a
+          next if cells.empty?
+          unless cells[4].text['Fechado']
+            # Solicitação em andamento, tentar novamente
+            sleep 0.5
+            retries -= 1
+            continue
+          end
+          time, anchor = cells[2].text.strip, cells[4].search('a').first
+          result[time] = anchor.attributes['href'].value
+        end
+        return agent.get(result[result.keys.max]).body.strip
       end
-      agent.get(result[result.keys.max]).body.strip
-    rescue e
-      warn e.message
-      retries -= 1
-      retry if retries > -1
-      raise
+      fail 'Solicitação em processamento'
     end
 
     private
