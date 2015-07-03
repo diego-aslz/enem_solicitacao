@@ -3,6 +3,8 @@ module EnemSolicitacao
   # para autenticação, procedimento que só é executado quando uma busca é
   # realizada.
   class Session
+    attr_reader :login, :password
+
     def initialize(login, password)
       @login    = login
       @password = password

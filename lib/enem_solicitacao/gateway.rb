@@ -13,6 +13,7 @@ module EnemSolicitacao
   # Este último utiliza uma sessão global e a configuração geral de login e
   # senha. Veja a documentação de EnemSolicitacao para maiores detalhes.
   class Gateway
+    attr_reader :year
     REGISTRY_KIND = 'numeroInscricao'
     CPF_KIND      = 'cpf'
 
